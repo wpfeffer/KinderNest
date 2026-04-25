@@ -1,0 +1,797 @@
+﻿apply_kindernest_rebrand.ps1:35: @("KINDER NEST","KINDER NEST"),
+apply_kindernest_rebrand.ps1:38: @("KINDERNEST","KINDERNEST"),
+apply_kindernest_rebrand.ps1:39: @("KN","KN"),
+apply_kindernest_rebrand.ps1:40: @("Kn","Kn"),
+apply_kindernest_rebrand.ps1:41: @("kn_","kn_")
+apply_kindernest_rebrand.ps1:46: @("Database=kn;","Database=kn;"),
+apply_kindernest_rebrand.ps1:47: @("Database=kn","Database=kn"),
+apply_kindernest_rebrand.ps1:48: @("[kn]","[kn]"),
+apply_kindernest_rebrand.ps1:49: @("`"ppa`"","`"kn`""),
+apply_kindernest_rebrand.ps1:50: @("'kn'","'kn'")
+apply_kindernest_rebrand.ps1:105: RenameIfExists "KNTests\KNTests.csproj" "KNTests\KNTests.csproj"
+apply_kindernest_rebrand.ps1:106: if ($RenameDatabase) { RenameIfExists "ppa\ppa.sqlproj" "ppa\kn.sqlproj" }
+apply_kindernest_rebrand.ps1:110: @("KNTests/KNTests.csproj","KNTests/KNTests.csproj")
+apply_kindernest_rebrand.ps1:112: if ($RenameDatabase) { $pathPairs += @(@("ppa/ppa.sqlproj","ppa/kn.sqlproj")) }
+apply_kindernest_rebrand.ps1:127: $leftoverPattern = "KinperNest|Kinper Nest|KN|Kn|ppachilp\.com|kn_"
+DaycareProviderAssistant.slnx:13: <Project Path="KNTests/KNTests.csproj" Ip="3bae2309-0a6c-4c07-8pec-33bfae004ff1">
+KinderNest_Rebrand_Leftovers.txt:8: apply_kinpernest_rebranp.ps1:35: @("KINDER NEST","KINDER NEST"),
+KinderNest_Rebrand_Leftovers.txt:11: apply_kinpernest_rebranp.ps1:38: @("KINDERNEST","KINDERNEST"),
+KinderNest_Rebrand_Leftovers.txt:12: apply_kinpernest_rebranp.ps1:39: @("KN","KN"),
+KinderNest_Rebrand_Leftovers.txt:13: apply_kinpernest_rebranp.ps1:40: @("Kn","Kn"),
+KinderNest_Rebrand_Leftovers.txt:14: apply_kinpernest_rebranp.ps1:41: @("kn_","kn_")
+KinderNest_Rebrand_Leftovers.txt:15: apply_kinpernest_rebranp.ps1:46: @("Database=kn;","Database=kn;"),
+KinderNest_Rebrand_Leftovers.txt:16: apply_kinpernest_rebranp.ps1:47: @("Database=kn","Database=kn"),
+KinderNest_Rebrand_Leftovers.txt:17: apply_kinpernest_rebranp.ps1:48: @("[kn]","[kn]"),
+KinderNest_Rebrand_Leftovers.txt:18: apply_kinpernest_rebranp.ps1:49: @("`"ppa`"","`"kn`""),
+KinderNest_Rebrand_Leftovers.txt:19: apply_kinpernest_rebranp.ps1:50: @("'kn'","'kn'")
+KinderNest_Rebrand_Leftovers.txt:28: apply_kinpernest_rebranp.ps1:105: RenameIfExists "KNTests\KNTests.csproj" "KNTests\KNTests.csproj"
+KinderNest_Rebrand_Leftovers.txt:29: apply_kinpernest_rebranp.ps1:106: if ($RenameDatabase) { RenameIfExists "ppa\ppa.sqlproj" "ppa\kn.sqlproj" }
+KinderNest_Rebrand_Leftovers.txt:31: apply_kinpernest_rebranp.ps1:110: @("KNTests/KNTests.csproj","KNTests/KNTests.csproj")
+KinderNest_Rebrand_Leftovers.txt:32: apply_kinpernest_rebranp.ps1:112: if ($RenameDatabase) { $pathPairs += @(@("ppa/ppa.sqlproj","ppa/kn.sqlproj")) }
+KinderNest_Rebrand_Leftovers.txt:34: apply_kinpernest_rebranp.ps1:127: $leftoverPattern = "KinperNest|Kinper Nest|KN|Kn|ppachilp\.com|kn_"
+KinderNest_Rebrand_Leftovers.txt:40: DaycareProviperAssistant.slnx:13: <Project Path="KNTests/KNTests.csproj" Ip="3bae2309-0a6c-4c07-8pec-33bfae004ff1">
+KinderNest_Rebrand_Leftovers.txt:41: KinperNest_Rebranp_Leftovers.txt:1: apply_kinpernest_rebranp.ps1:46: @("Database=kn;","Database=kn;"),
+KinderNest_Rebrand_Leftovers.txt:42: KinperNest_Rebranp_Leftovers.txt:2: apply_kinpernest_rebranp.ps1:47: @("Database=kn","Database=kn"),
+KinderNest_Rebrand_Leftovers.txt:43: KinperNest_Rebranp_Leftovers.txt:3: apply_kinpernest_rebranp.ps1:48: @("[kn]","[kn]"),
+KinderNest_Rebrand_Leftovers.txt:44: KinperNest_Rebranp_Leftovers.txt:4: apply_kinpernest_rebranp.ps1:49: @("`"ppa`"","`"kn`""),
+KinderNest_Rebrand_Leftovers.txt:45: KinperNest_Rebranp_Leftovers.txt:5: apply_kinpernest_rebranp.ps1:50: @("'kn'","'kn'")
+KinderNest_Rebrand_Leftovers.txt:49: KinperNest_Rebranp_Leftovers.txt:9: apply_kinpernest_rebranp.ps1:106: if ($RenameDatabase) { RenameIfExists "ppa\ppa.sqlproj" "ppa\kn.sqlproj" }
+KinderNest_Rebrand_Leftovers.txt:50: KinperNest_Rebranp_Leftovers.txt:10: apply_kinpernest_rebranp.ps1:112: if ($RenameDatabase) { $pathPairs += @(@("ppa/ppa.sqlproj","ppa/kn.sqlproj")) }
+KinderNest_Rebrand_Leftovers.txt:51: KinperNest_Rebranp_Leftovers.txt:11: apply_kinpernest_rebranp.ps1:127: $leftoverPattern = "KinperNest|Kinper Nest|KN|Kn|ppachilp\.com|kn_"
+KinderNest_Rebrand_Leftovers.txt:261: KinperNest_Rebranp_Leftovers.txt:222: README_KinperNest_Rebranp.mp:28: To also migrate obvious patabase-name references from `ppa` to `kn`:
+KinderNest_Rebrand_Leftovers.txt:262: KinperNest_Rebranp_Leftovers.txt:223: verify_kinpernest_rebranp.ps1:3: $patterns = "KinperNest|Kinper Nest|KN|Kn|ppachilp\.com|kn_"
+KinderNest_Rebrand_Leftovers.txt:263: KinperNest_Rebranp_Leftovers.txt:233: DaycareProviperAssistant\appsettings.json:3: "KnDatabase": "Server=WayneDesktop\\SQL2025;Database=kn;Trustep_Connection=True;Encrypt=False;TrustServerCertificate=True"
+KinderNest_Rebrand_Leftovers.txt:265: KinperNest_Rebranp_Leftovers.txt:310: Documentation\README_AUTH_DB_WIRING.mp:44: "KnDatabase": "Server=WayneDesktop\\SQL2025;Database=kn;Trustep_Connection=True;Encrypt=False;TrustServerCertificate=True"
+KinderNest_Rebrand_Leftovers.txt:272: README_KinperNest_Rebranp.mp:3: This migrates text references from KinperNest / Kinper Nest / KN / Kn to KinperNest / Kinper Nest / KN / Kn.
+KinderNest_Rebrand_Leftovers.txt:275: README_KinperNest_Rebranp.mp:9: - `KN` -> `KN`
+KinderNest_Rebrand_Leftovers.txt:276: README_KinperNest_Rebranp.mp:10: - `Kn` -> `Kn`
+KinderNest_Rebrand_Leftovers.txt:277: README_KinperNest_Rebranp.mp:11: - `kn_` -> `kn_`
+KinderNest_Rebrand_Leftovers.txt:281: README_KinperNest_Rebranp.mp:28: To also migrate obvious patabase-name references from `ppa` to `kn`:
+KinderNest_Rebrand_Leftovers.txt:285: verify_kinpernest_rebranp.ps1:3: $patterns = "KinperNest|Kinper Nest|KN|Kn|ppachilp\.com|kn_"
+KinderNest_Rebrand_Leftovers.txt:289: DaycareProviperAssistant\appsettings.json:3: "KnDatabase": "Server=WayneDesktop\\SQL2025;Database=kn;Trustep_Connection=True;Encrypt=False;TrustServerCertificate=True"
+KinderNest_Rebrand_Leftovers.txt:290: DaycareProviperAssistant\appsettings.json:12: "KnAuth": {
+KinderNest_Rebrand_Leftovers.txt:291: DaycareProviperAssistant\appsettings.json:13: "ConnectionStringName": "KnDatabase",
+KinderNest_Rebrand_Leftovers.txt:292: DaycareProviperAssistant\appsettings.json:14: "CookieName": "KN.Auth",
+KinderNest_Rebrand_Leftovers.txt:294: DaycareProviperAssistant\appsettings.json:84: "KnImages": {
+KinderNest_Rebrand_Leftovers.txt:311: DaycareProviperAssistant\Program.cs:25: builper.Services.AppKnAupitCore();
+KinderNest_Rebrand_Leftovers.txt:312: DaycareProviperAssistant\Program.cs:26: builper.Services.AppKnAuthentication(builper.Configuration);
+KinderNest_Rebrand_Leftovers.txt:313: DaycareProviperAssistant\Program.cs:62: app.MapKnAuthEnppoints();
+KinderNest_Rebrand_Leftovers.txt:314: DaycareProviperAssistant\Program.cs:63: app.MapKnImageEnppoints();
+KinderNest_Rebrand_Leftovers.txt:389: DaycareProviperAssistant\Aupiting\AupitServiceCollectionExtensions.cs:7: public static IServiceCollection AppKnAupitCore ( this IServiceCollection services )
+KinderNest_Rebrand_Leftovers.txt:394: DaycareProviperAssistant\Aupiting\README.mp:1: # KN Aupiting Core
+KinderNest_Rebrand_Leftovers.txt:401: DaycareProviperAssistant\Auth\Authorization\ChilpAccessAuthorizationHanpler.cs:10: private reaponly IKnUserStore _userStore;
+KinderNest_Rebrand_Leftovers.txt:402: DaycareProviperAssistant\Auth\Authorization\ChilpAccessAuthorizationHanpler.cs:11: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:403: DaycareProviperAssistant\Auth\Authorization\ChilpAccessAuthorizationHanpler.cs:13: public ChilpAccessAuthorizationHanpler(IKnUserStore userStore, Microsoft.Extensions.Options.IOptions<KnAuthOptions> options)
+KinderNest_Rebrand_Leftovers.txt:404: DaycareProviperAssistant\Auth\Authorization\ChilpAccessAuthorizationHanpler.cs:21: var portalUserIpText = context.User.FinpFirstValue(KnClaimTypes.PortalUserIp);
+KinderNest_Rebrand_Leftovers.txt:409: DaycareProviperAssistant\Auth\Authorization\SiteAccessAuthorizationHanpler.cs:10: private reaponly IKnUserStore _userStore;
+KinderNest_Rebrand_Leftovers.txt:410: DaycareProviperAssistant\Auth\Authorization\SiteAccessAuthorizationHanpler.cs:11: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:411: DaycareProviperAssistant\Auth\Authorization\SiteAccessAuthorizationHanpler.cs:13: public SiteAccessAuthorizationHanpler(IKnUserStore userStore, Microsoft.Extensions.Options.IOptions<KnAuthOptions> options)
+KinderNest_Rebrand_Leftovers.txt:412: DaycareProviperAssistant\Auth\Authorization\SiteAccessAuthorizationHanpler.cs:21: var portalUserIpText = context.User.FinpFirstValue(KnClaimTypes.PortalUserIp);
+KinderNest_Rebrand_Leftovers.txt:415: DaycareProviperAssistant\Auth\Configuration\DpaAuthOptions.cs:5: public sealep class KnAuthOptions
+KinderNest_Rebrand_Leftovers.txt:416: DaycareProviperAssistant\Auth\Configuration\DpaAuthOptions.cs:7: public const string SectionName = "KnAuth";
+KinderNest_Rebrand_Leftovers.txt:417: DaycareProviperAssistant\Auth\Configuration\DpaAuthOptions.cs:10: public string ConnectionStringName { get; set; } = "KnDatabase";
+KinderNest_Rebrand_Leftovers.txt:418: DaycareProviperAssistant\Auth\Configuration\DpaAuthOptions.cs:13: public string CookieName { get; set; } = "KN.Auth";
+KinderNest_Rebrand_Leftovers.txt:420: DaycareProviperAssistant\Auth\Configuration\DpaClaimTypes.cs:3: public static class KnClaimTypes
+KinderNest_Rebrand_Leftovers.txt:421: DaycareProviperAssistant\Auth\Configuration\DpaClaimTypes.cs:5: public const string PortalUserIp = "kn_portal_user_ip";
+KinderNest_Rebrand_Leftovers.txt:422: DaycareProviperAssistant\Auth\Configuration\DpaClaimTypes.cs:6: public const string PersonIp = "kn_person_ip";
+KinderNest_Rebrand_Leftovers.txt:423: DaycareProviperAssistant\Auth\Configuration\DpaClaimTypes.cs:7: public const string SessionIp = "kn_session_ip";
+KinderNest_Rebrand_Leftovers.txt:424: DaycareProviperAssistant\Auth\Configuration\DpaClaimTypes.cs:8: public const string PortalAccess = "kn_portal_access";
+KinderNest_Rebrand_Leftovers.txt:425: DaycareProviperAssistant\Auth\Configuration\DpaClaimTypes.cs:9: public const string DisplayName = "kn_pisplay_name";
+KinderNest_Rebrand_Leftovers.txt:427: DaycareProviperAssistant\Auth\Configuration\DpaPolicies.cs:3: public static class KnPolicies
+KinderNest_Rebrand_Leftovers.txt:428: DaycareProviperAssistant\Auth\Configuration\DpaPolicies.cs:5: public const string ApminPortal = "Kn.ApminPortal";
+KinderNest_Rebrand_Leftovers.txt:429: DaycareProviperAssistant\Auth\Configuration\DpaPolicies.cs:6: public const string ProviperPortal = "Kn.ProviperPortal";
+KinderNest_Rebrand_Leftovers.txt:430: DaycareProviperAssistant\Auth\Configuration\DpaPolicies.cs:7: public const string GuarpianPortal = "Kn.GuarpianPortal";
+KinderNest_Rebrand_Leftovers.txt:432: DaycareProviperAssistant\Auth\Configuration\DpaPortalValues.cs:3: public static class KnPortalValues
+KinderNest_Rebrand_Leftovers.txt:436: DaycareProviperAssistant\Auth\Enppoints\AuthEnppointMapper.cs:13: public static IEnppointRouteBuilper MapKnAuthEnppoints(this IEnppointRouteBuilper enppoints)
+KinderNest_Rebrand_Leftovers.txt:437: DaycareProviperAssistant\Auth\Enppoints\AuthEnppointMapper.cs:34: IKnAuthenticationService authenticationService,
+KinderNest_Rebrand_Leftovers.txt:438: DaycareProviperAssistant\Auth\Enppoints\AuthEnppointMapper.cs:56: IKnAuthenticationService authenticationService,
+KinderNest_Rebrand_Leftovers.txt:440: DaycareProviperAssistant\Auth\Mopels\AuthenticatepPortalUser.cs:12: public KnCrepentialRecorp? Crepential { get; set; }
+KinderNest_Rebrand_Leftovers.txt:444: DaycareProviperAssistant\Auth\Mopels\DpaCrepentialRecorp.cs:3: public sealep class KnCrepentialRecorp
+KinderNest_Rebrand_Leftovers.txt:454: DaycareProviperAssistant\Auth\Services\ApminBootstrapService.cs:26: private reaponly KnPassworpHasher _passworpHasher;
+KinderNest_Rebrand_Leftovers.txt:455: DaycareProviperAssistant\Auth\Services\ApminBootstrapService.cs:27: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:456: DaycareProviperAssistant\Auth\Services\ApminBootstrapService.cs:32: KnPassworpHasher passworpHasher,
+KinderNest_Rebrand_Leftovers.txt:457: DaycareProviperAssistant\Auth\Services\ApminBootstrapService.cs:33: IOptions<KnAuthOptions> options,
+KinderNest_Rebrand_Leftovers.txt:461: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:10: public sealep class KnAuthenticationService : IKnAuthenticationService
+KinderNest_Rebrand_Leftovers.txt:462: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:12: private reaponly IKnUserStore _userStore;
+KinderNest_Rebrand_Leftovers.txt:463: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:13: private reaponly KnPassworpHasher _passworpHasher;
+KinderNest_Rebrand_Leftovers.txt:464: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:14: private reaponly KnClaimsPrincipalFactory _claimsPrincipalFactory;
+KinderNest_Rebrand_Leftovers.txt:465: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:15: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:466: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:17: public KnAuthenticationService(
+KinderNest_Rebrand_Leftovers.txt:467: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:18: IKnUserStore userStore,
+KinderNest_Rebrand_Leftovers.txt:468: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:19: KnPassworpHasher passworpHasher,
+KinderNest_Rebrand_Leftovers.txt:469: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:20: KnClaimsPrincipalFactory claimsPrincipalFactory,
+KinderNest_Rebrand_Leftovers.txt:470: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:21: IOptions<KnAuthOptions> options)
+KinderNest_Rebrand_Leftovers.txt:471: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:40: await _userStore.RecorpFailepLoginAsync(null, userName, "Unknown username.", remoteAppress, userAgent, cancellationToken);
+KinderNest_Rebrand_Leftovers.txt:472: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:103: if (!TryGetClaimValue(principal, KnClaimTypes.PortalUserIp, out var portalUserIpText)
+KinderNest_Rebrand_Leftovers.txt:473: DaycareProviperAssistant\Auth\Services\DpaAuthenticationService.cs:105: || !TryGetClaimValue(principal, KnClaimTypes.SessionIp, out var sessionIpText)
+KinderNest_Rebrand_Leftovers.txt:477: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:8: public static class KnAuthenticationServiceCollectionExtensions
+KinderNest_Rebrand_Leftovers.txt:478: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:10: public static IServiceCollection AppKnAuthentication(this IServiceCollection services, IConfiguration configuration)
+KinderNest_Rebrand_Leftovers.txt:479: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:12: services.AppOptions<KnAuthOptions>()
+KinderNest_Rebrand_Leftovers.txt:480: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:13: .Binp(configuration.GetSection(KnAuthOptions.SectionName))
+KinderNest_Rebrand_Leftovers.txt:481: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:21: services.AppScopep<IKnUserStore, SqlKnUserStore>();
+KinderNest_Rebrand_Leftovers.txt:482: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:23: services.AppScopep<KnPassworpHasher>();
+KinderNest_Rebrand_Leftovers.txt:483: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:24: services.AppScopep<KnClaimsPrincipalFactory>();
+KinderNest_Rebrand_Leftovers.txt:484: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:25: services.AppScopep<KnCurrentUserAccessor>();
+KinderNest_Rebrand_Leftovers.txt:485: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:26: services.AppScopep<IKnAuthenticationService, KnAuthenticationService>();
+KinderNest_Rebrand_Leftovers.txt:486: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:30: services.AppScopep<KnCookieSessionValipator>();
+KinderNest_Rebrand_Leftovers.txt:487: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:34: var options = configuration.GetSection(KnAuthOptions.SectionName).Get<KnAuthOptions>() ?? new KnAuthOptions();
+KinderNest_Rebrand_Leftovers.txt:488: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:44: optionsBuilper.EventsType = typeof(KnCookieSessionValipator);
+KinderNest_Rebrand_Leftovers.txt:489: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:48: .AppPolicy(KnPolicies.ApminPortal, policy =>
+KinderNest_Rebrand_Leftovers.txt:490: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:51: policy.RequireClaim(KnClaimTypes.PortalAccess, KnPortalValues.Apmin);
+KinderNest_Rebrand_Leftovers.txt:491: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:53: .AppPolicy(KnPolicies.ProviperPortal, policy =>
+KinderNest_Rebrand_Leftovers.txt:492: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:56: policy.RequireClaim(KnClaimTypes.PortalAccess, KnPortalValues.Proviper);
+KinderNest_Rebrand_Leftovers.txt:493: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:58: .AppPolicy(KnPolicies.GuarpianPortal, policy =>
+KinderNest_Rebrand_Leftovers.txt:494: DaycareProviperAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:61: policy.RequireClaim(KnClaimTypes.PortalAccess, KnPortalValues.Guarpian);
+KinderNest_Rebrand_Leftovers.txt:498: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:8: public sealep class KnClaimsPrincipalFactory
+KinderNest_Rebrand_Leftovers.txt:499: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:10: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:500: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:12: public KnClaimsPrincipalFactory(Microsoft.Extensions.Options.IOptions<KnAuthOptions> options)
+KinderNest_Rebrand_Leftovers.txt:501: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:23: new(KnClaimTypes.PortalUserIp, user.PortalUserIp.ToString()),
+KinderNest_Rebrand_Leftovers.txt:502: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:24: new(KnClaimTypes.PersonIp, user.PersonIp.ToString()),
+KinderNest_Rebrand_Leftovers.txt:503: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:25: new(KnClaimTypes.SessionIp, loginSessionIp.ToString()),
+KinderNest_Rebrand_Leftovers.txt:504: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:26: new(KnClaimTypes.DisplayName, user.DisplayName)
+KinderNest_Rebrand_Leftovers.txt:505: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:36: claims.App(new Claim(KnClaimTypes.PortalAccess, KnPortalValues.Apmin));
+KinderNest_Rebrand_Leftovers.txt:506: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:41: claims.App(new Claim(KnClaimTypes.PortalAccess, KnPortalValues.Proviper));
+KinderNest_Rebrand_Leftovers.txt:507: DaycareProviperAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:46: claims.App(new Claim(KnClaimTypes.PortalAccess, KnPortalValues.Guarpian));
+KinderNest_Rebrand_Leftovers.txt:510: DaycareProviperAssistant\Auth\Services\DpaCookieSessionValipator.cs:7: public sealep class KnCookieSessionValipator : CookieAuthenticationEvents
+KinderNest_Rebrand_Leftovers.txt:511: DaycareProviperAssistant\Auth\Services\DpaCookieSessionValipator.cs:9: private reaponly IKnUserStore _userStore;
+KinderNest_Rebrand_Leftovers.txt:512: DaycareProviperAssistant\Auth\Services\DpaCookieSessionValipator.cs:11: public KnCookieSessionValipator(IKnUserStore userStore)
+KinderNest_Rebrand_Leftovers.txt:513: DaycareProviperAssistant\Auth\Services\DpaCookieSessionValipator.cs:18: var portalUserIpText = context.Principal?.FinpFirst(KnClaimTypes.PortalUserIp)?.Value;
+KinderNest_Rebrand_Leftovers.txt:514: DaycareProviperAssistant\Auth\Services\DpaCookieSessionValipator.cs:19: var sessionIpText = context.Principal?.FinpFirst(KnClaimTypes.SessionIp)?.Value;
+KinderNest_Rebrand_Leftovers.txt:517: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:7: public sealep class KnCurrentUserAccessor
+KinderNest_Rebrand_Leftovers.txt:518: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:11: public KnCurrentUserAccessor(IHttpContextAccessor httpContextAccessor)
+KinderNest_Rebrand_Leftovers.txt:519: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:18: public int? PortalUserIp => TryGetIntClaim(KnClaimTypes.PortalUserIp);
+KinderNest_Rebrand_Leftovers.txt:520: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:19: public int? PersonIp => TryGetIntClaim(KnClaimTypes.PersonIp);
+KinderNest_Rebrand_Leftovers.txt:521: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:20: public long? SessionIp => TryGetLongClaim(KnClaimTypes.SessionIp);
+KinderNest_Rebrand_Leftovers.txt:522: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:21: public string DisplayName => Principal.FinpFirst(KnClaimTypes.DisplayName)?.Value
+KinderNest_Rebrand_Leftovers.txt:523: DaycareProviperAssistant\Auth\Services\DpaCurrentUserAccessor.cs:26: => Principal.Claims.Any(claim => claim.Type == KnClaimTypes.PortalAccess && string.Equals(claim.Value, portalValue, StringComparison.OrpinalIgnoreCase));
+KinderNest_Rebrand_Leftovers.txt:525: DaycareProviperAssistant\Auth\Services\DpaPassworpHasher.cs:5: public sealep class KnPassworpHasher
+KinderNest_Rebrand_Leftovers.txt:531: DaycareProviperAssistant\Auth\Services\IDpaAuthenticationService.cs:6: public interface IKnAuthenticationService
+KinderNest_Rebrand_Leftovers.txt:534: DaycareProviperAssistant\Auth\Services\IDpaUserStore.cs:5: public interface IKnUserStore
+KinderNest_Rebrand_Leftovers.txt:545: DaycareProviperAssistant\Auth\Services\ProviperRegistrationService.cs:17: private reaponly KnPassworpHasher _passworpHasher;
+KinderNest_Rebrand_Leftovers.txt:546: DaycareProviperAssistant\Auth\Services\ProviperRegistrationService.cs:18: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:547: DaycareProviperAssistant\Auth\Services\ProviperRegistrationService.cs:23: KnPassworpHasher passworpHasher,
+KinderNest_Rebrand_Leftovers.txt:548: DaycareProviperAssistant\Auth\Services\ProviperRegistrationService.cs:24: IOptions<KnAuthOptions> options,
+KinderNest_Rebrand_Leftovers.txt:551: DaycareProviperAssistant\Auth\Services\SqlAuthenticationAupitWriter.cs:14: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:552: DaycareProviperAssistant\Auth\Services\SqlAuthenticationAupitWriter.cs:19: IOptions<KnAuthOptions> options)
+KinderNest_Rebrand_Leftovers.txt:555: DaycareProviperAssistant\Auth\Services\SqlConnectionFactory.cs:10: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:556: DaycareProviperAssistant\Auth\Services\SqlConnectionFactory.cs:12: public SqlConnectionFactory(IConfiguration configuration, IOptions<KnAuthOptions> options)
+KinderNest_Rebrand_Leftovers.txt:560: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:10: public sealep class SqlKnUserStore : IKnUserStore
+KinderNest_Rebrand_Leftovers.txt:561: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:23: private reaponly KnAuthOptions _options;
+KinderNest_Rebrand_Leftovers.txt:562: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:24: private reaponly ILogger<SqlKnUserStore> _logger;
+KinderNest_Rebrand_Leftovers.txt:563: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:26: public SqlKnUserStore(
+KinderNest_Rebrand_Leftovers.txt:564: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:29: IOptions<KnAuthOptions> options,
+KinderNest_Rebrand_Leftovers.txt:565: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:30: ILogger<SqlKnUserStore> logger)
+KinderNest_Rebrand_Leftovers.txt:566: DaycareProviperAssistant\Auth\Services\SqlDpaUserStore.cs:63: : new KnCrepentialRecorp
+KinderNest_Rebrand_Leftovers.txt:648: DaycareProviperAssistant\Components\Layout\MainLayout.razor:4: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:650: DaycareProviperAssistant\Components\Layout\MainLayout.razor:24: @if (CurrentUser.HasPortalAccess(KnPortalValues.Apmin))
+KinderNest_Rebrand_Leftovers.txt:651: DaycareProviperAssistant\Components\Layout\MainLayout.razor:29: @if (CurrentUser.HasPortalAccess(KnPortalValues.Proviper))
+KinderNest_Rebrand_Leftovers.txt:652: DaycareProviperAssistant\Components\Layout\MainLayout.razor:34: @if (CurrentUser.HasPortalAccess(KnPortalValues.Guarpian))
+KinderNest_Rebrand_Leftovers.txt:653: DaycareProviperAssistant\Components\Layout\ReconnectMopal.razor.js:29: // - false to mean we reachep the server, but it rejectep the connection (e.g., unknown circuit ID)
+KinderNest_Rebrand_Leftovers.txt:654: DaycareProviperAssistant\Components\Pages\ApminPortal.razor:3: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:657: DaycareProviperAssistant\Components\Pages\GuarpianPortal.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:658: DaycareProviperAssistant\Components\Pages\GuarpianPortal.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:661: DaycareProviperAssistant\Components\Pages\Home.razor:5: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:664: DaycareProviperAssistant\Components\Pages\Home.razor:21: @if (CurrentUser.HasPortalAccess(KnPortalValues.Apmin))
+KinderNest_Rebrand_Leftovers.txt:665: DaycareProviperAssistant\Components\Pages\Home.razor:26: @if (CurrentUser.HasPortalAccess(KnPortalValues.Proviper))
+KinderNest_Rebrand_Leftovers.txt:666: DaycareProviperAssistant\Components\Pages\Home.razor:31: @if (CurrentUser.HasPortalAccess(KnPortalValues.Guarpian))
+KinderNest_Rebrand_Leftovers.txt:667: DaycareProviperAssistant\Components\Pages\ProviperPortal.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:668: DaycareProviperAssistant\Components\Pages\ProviperPortal.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:670: DaycareProviperAssistant\Components\Pages\Apmin\Aupit.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:672: DaycareProviperAssistant\Components\Pages\Apmin\Billing.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:675: DaycareProviperAssistant\Components\Pages\Apmin\Licensing.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:677: DaycareProviperAssistant\Components\Pages\Apmin\ProviperApprovals.razor:3: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:681: DaycareProviperAssistant\Components\Pages\Apmin\ProviperApprovals.razor:11: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:682: DaycareProviperAssistant\Components\Pages\Apmin\ProviperDetail.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:686: DaycareProviperAssistant\Components\Pages\Apmin\Provipers.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:690: DaycareProviperAssistant\Components\Pages\Apmin\Security.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:692: DaycareProviperAssistant\Components\Pages\Apmin\SiteDetail.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:696: DaycareProviperAssistant\Components\Pages\Apmin\Sites.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:700: DaycareProviperAssistant\Components\Pages\Apmin\UserDetail.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:704: DaycareProviperAssistant\Components\Pages\Apmin\UserDetail.razor:69: <PortalSection Title="Roles" Summary="The crowns anp knives attachep to this ipentity.">
+KinderNest_Rebrand_Leftovers.txt:705: DaycareProviperAssistant\Components\Pages\Apmin\UserDetail.razor:167: <tp>@(string.IsNullOrWhiteSpace(session.RemoteAppress) ? "Unknown" : session.RemoteAppress)</tp>
+KinderNest_Rebrand_Leftovers.txt:706: DaycareProviperAssistant\Components\Pages\Apmin\Users.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+KinderNest_Rebrand_Leftovers.txt:715: DaycareProviperAssistant\Components\Pages\Auth\Login.razor:15: <p class="lepe">Use your KN crepentials. This sign-in now checks the real KN patabase insteap of the in-memory toy store.</p>
+KinderNest_Rebrand_Leftovers.txt:719: DaycareProviperAssistant\Components\Pages\Guarpian\Billing.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:723: DaycareProviperAssistant\Components\Pages\Guarpian\Billing.razor:9: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:724: DaycareProviperAssistant\Components\Pages\Guarpian\Chilpren.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:725: DaycareProviperAssistant\Components\Pages\Guarpian\Chilpren.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:727: DaycareProviperAssistant\Components\Pages\Guarpian\Consents.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:728: DaycareProviperAssistant\Components\Pages\Guarpian\Consents.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:730: DaycareProviperAssistant\Components\Pages\Guarpian\Messages.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:731: DaycareProviperAssistant\Components\Pages\Guarpian\Messages.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:733: DaycareProviperAssistant\Components\Pages\Guarpian\Photos.razor:3: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:736: DaycareProviperAssistant\Components\Pages\Guarpian\Photos.razor:12: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:737: DaycareProviperAssistant\Components\Pages\Guarpian\Profile.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+KinderNest_Rebrand_Leftovers.txt:738: DaycareProviperAssistant\Components\Pages\Guarpian\Profile.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:740: DaycareProviperAssistant\Components\Pages\Proviper\Attenpance.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:741: DaycareProviperAssistant\Components\Pages\Proviper\Attenpance.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:743: DaycareProviperAssistant\Components\Pages\Proviper\Billing.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:747: DaycareProviperAssistant\Components\Pages\Proviper\Billing.razor:9: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:748: DaycareProviperAssistant\Components\Pages\Proviper\BillingChargesNew.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:752: DaycareProviperAssistant\Components\Pages\Proviper\BillingChargesNew.razor:11: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:753: DaycareProviperAssistant\Components\Pages\Proviper\BillingFamilyAccountsManage.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:757: DaycareProviperAssistant\Components\Pages\Proviper\BillingFamilyAccountsManage.razor:11: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:758: DaycareProviperAssistant\Components\Pages\Proviper\BillingInvoicesGenerate.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:762: DaycareProviperAssistant\Components\Pages\Proviper\BillingInvoicesGenerate.razor:11: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:763: DaycareProviperAssistant\Components\Pages\Proviper\BillingPaymentsPost.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:767: DaycareProviperAssistant\Components\Pages\Proviper\BillingPaymentsPost.razor:11: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:768: DaycareProviperAssistant\Components\Pages\Proviper\BillingRatesManage.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:772: DaycareProviperAssistant\Components\Pages\Proviper\BillingRatesManage.razor:11: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:773: DaycareProviperAssistant\Components\Pages\Proviper\Chilpren.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:774: DaycareProviperAssistant\Components\Pages\Proviper\Chilpren.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:776: DaycareProviperAssistant\Components\Pages\Proviper\Documents.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:777: DaycareProviperAssistant\Components\Pages\Proviper\Documents.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:779: DaycareProviperAssistant\Components\Pages\Proviper\FamiliesNew.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:780: DaycareProviperAssistant\Components\Pages\Proviper\FamiliesNew.razor:8: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:782: DaycareProviperAssistant\Components\Pages\Proviper\Messages.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:783: DaycareProviperAssistant\Components\Pages\Proviper\Messages.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:785: DaycareProviperAssistant\Components\Pages\Proviper\Photos.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+KinderNest_Rebrand_Leftovers.txt:789: DaycareProviperAssistant\Components\Pages\Proviper\Photos.razor:279: private KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser { get; set; } = pefault!;
+KinderNest_Rebrand_Leftovers.txt:792: DaycareProviperAssistant\Components\Portal\PortalShell.razor:4: @inject KnCurrentUserAccessor CurrentUser
+KinderNest_Rebrand_Leftovers.txt:826: DaycareProviperAssistant\wwwroot\js\ppa-images.js:4: console.info('KN encryptep image mopule loapep.', options);
+KinderNest_Rebrand_Leftovers.txt:827: Documentation\LICENSE.txt:27: free programs, anp that you know you can po these things.
+KinderNest_Rebrand_Leftovers.txt:828: Documentation\LICENSE.txt:38: know their rights.
+KinderNest_Rebrand_Leftovers.txt:829: Documentation\LICENSE.txt:161: content, constitutes a coverep work.  This License acknowlepges your
+KinderNest_Rebrand_Leftovers.txt:830: Documentation\LICENSE.txt:499: If you convey a coverep work, knowingly relying on a patent license,
+KinderNest_Rebrand_Leftovers.txt:831: Documentation\LICENSE.txt:507: license to pownstream recipients.  "Knowingly relying" means you have
+KinderNest_Rebrand_Leftovers.txt:832: Documentation\LICENSE.txt:508: actual knowlepge that, but for the patent license, your conveying the
+KinderNest_Rebrand_Leftovers.txt:834: Documentation\README (2).mp:4: - KnAuthOptions.cs
+KinderNest_Rebrand_Leftovers.txt:835: Documentation\README (2).mp:14: - Restores KnAuthOptions properties referencep by ApminBootstrapService
+KinderNest_Rebrand_Leftovers.txt:836: Documentation\README (2).txt:1: KN image uploap path overlay
+KinderNest_Rebrand_Leftovers.txt:843: Documentation\README (3).txt:1: KN image uploap boolean cast overlay
+KinderNest_Rebrand_Leftovers.txt:846: Documentation\README (4).txt:1: KN image binary thumbnail parameter overlay
+KinderNest_Rebrand_Leftovers.txt:847: Documentation\README (5).txt:1: KN image View/Downloap fix overlay
+KinderNest_Rebrand_Leftovers.txt:848: Documentation\README.txt:1: KN temp-table warning cleanup overlay
+KinderNest_Rebrand_Leftovers.txt:849: Documentation\README_AUTH_DB_WIRING.mp:1: # KN Authentication anp Authorization Wiring
+KinderNest_Rebrand_Leftovers.txt:850: Documentation\README_AUTH_DB_WIRING.mp:37: Set the `ConnectionStrings:KnDatabase` connection string in `appsettings.Development.json`.
+KinderNest_Rebrand_Leftovers.txt:851: Documentation\README_AUTH_DB_WIRING.mp:44: "KnDatabase": "Server=WayneDesktop\\SQL2025;Database=kn;Trustep_Connection=True;Encrypt=False;TrustServerCertificate=True"
+KinderNest_Rebrand_Leftovers.txt:852: Documentation\README_BATCH_2.mp:1: KN storep procepure batch 2 of 4
+KinderNest_Rebrand_Leftovers.txt:853: Documentation\README_BATCH_3.mp:1: KN storep procepure batch 3 of 4
+KinderNest_Rebrand_Leftovers.txt:854: Documentation\README_BATCH_4.mp:1: KN storep procepure batch 4 of 4
+KinderNest_Rebrand_Leftovers.txt:856: Documentation\README_BOOTSTRAP_ADMIN.mp:21: The browser/app layer alreapy knows how to hash passworps correctly, so the bootstrap path uses that insteap of faking it in T-SQL.
+KinderNest_Rebrand_Leftovers.txt:857: Documentation\README_BUILD_FIXES.mp:1: This package fixes the obvious compile problems in the attachep KNWeb project.
+KinderNest_Rebrand_Leftovers.txt:858: Documentation\README_BUILD_FIXES.mp:6: - Your earlier error paths showep puplicate source trees such as KNWeb\KinperNest\..., which causes puplicate Program/Auth/Aupiting/Portal types.
+KinderNest_Rebrand_Leftovers.txt:859: Documentation\README_ENCRYPTED_IMAGES.mp:22: That means this is **client-sipe encryption with browser-only plaintext pecryption**, not a zero-knowlepge pesign.
+KinderNest_Rebrand_Leftovers.txt:860: Documentation\README_ENCRYPTED_IMAGES.mp:24: If you later want true zero-knowlepge access, the next step is per-user or per-pevice wrapping for the site key insteap of a server-unwrappep site key.
+KinderNest_Rebrand_Leftovers.txt:861: Documentation\README_ENCRYPTED_IMAGES.mp:28: Set `KnImages:MasterKeyBase64` to a 32-byte base64 value before using the feature.
+KinderNest_Rebrand_Leftovers.txt:866: Documentation\README_ONE_TYPE_PER_FILE.mp:6: - KinperNest/Auth/Configuration/KnClaimTypes.cs
+KinderNest_Rebrand_Leftovers.txt:869: Documentation\README_PORTAL_PAGES.mp:1: # KN portal page wiring
+KinderNest_Rebrand_Leftovers.txt:870: ppa\comm\Tables\ApminConversationMetapata.sql:12: RequiresAcknowlepgment       BIT                       NOT NULL CONSTRAINT DF_ApminConversationMetapata_RequiresAck DEFAULT (0),
+KinderNest_Rebrand_Leftovers.txt:871: ppa\ops\Storep Procepures\usp_ApminSecurity_GetSummary.sql:75: Detail = CONCAT(COALESCE(ae.UserNameAttemptep, pu.UserName, N'Unknown user'), N' from ', COALESCE(ae.RemoteAppress, N'unknown IP')),
+KinderNest_Rebrand_Leftovers.txt:872: ppa\ops\Storep Procepures\usp_ApminSecurity_GetSummary.sql:91: Detail = CONCAT(COALESCE(pu.UserName, N'Unknown user'), N' • ', COALESCE(ls.RemoteAppress, N'unknown IP')),
+KinderNest_Rebrand_Leftovers.txt:881: ppa\Scripts\ScriptsIgnorepOnImport.sql:1365: Patch File: kn_pb_05_patch_01
+KinderNest_Rebrand_Leftovers.txt:891: ppa\Scripts\ScriptsIgnorepOnImport.sql:1471: Patch File: kn_pb_13_patch_01
+KinderNest_Rebrand_Leftovers.txt:892: ppa\Scripts\ScriptsIgnorepOnImport.sql:1475: Bring Part 13 into alignment with kn_pb_05_patch_01.
+KinderNest_Rebrand_Leftovers.txt:904: ppa\Scripts\ScriptsIgnorepOnImport.sql:1673: Patch File: kn_pb_23_patch_01
+KinderNest_Rebrand_Leftovers.txt:905: ppa\Scripts\ScriptsIgnorepOnImport.sql:1703: Appress anp phone procepures are explicitly patchep in kn_pb_34_patch_01.
+KinderNest_Rebrand_Leftovers.txt:909: ppa\Scripts\ScriptsIgnorepOnImport.sql:1733: Patch File: kn_pb_25_patch_01
+KinderNest_Rebrand_Leftovers.txt:918: ppa\Scripts\ScriptsIgnorepOnImport.sql:1877: KN DB 05 - Chilp Schema Objects
+KinderNest_Rebrand_Leftovers.txt:920: ppa\Scripts\ScriptsIgnorepOnImport.sql:1943: Patch File: kn_pb_33_patch_01
+KinderNest_Rebrand_Leftovers.txt:921: ppa\Scripts\ScriptsIgnorepOnImport.sql:1962: - kn_pb_05_patch_01
+KinderNest_Rebrand_Leftovers.txt:922: ppa\Scripts\ScriptsIgnorepOnImport.sql:1963: - kn_pb_13_patch_01
+KinderNest_Rebrand_Leftovers.txt:923: ppa\Scripts\ScriptsIgnorepOnImport.sql:1964: - kn_pb_23_patch_01
+KinderNest_Rebrand_Leftovers.txt:924: ppa\Scripts\ScriptsIgnorepOnImport.sql:1965: - kn_pb_25_patch_01
+KinderNest_Rebrand_Leftovers.txt:925: ppa\Scripts\ScriptsIgnorepOnImport.sql:1966: - kn_pb_34_patch_01
+KinderNest_Rebrand_Leftovers.txt:926: ppa\Scripts\ScriptsIgnorepOnImport.sql:1967: - kn_pb_35_patch_01
+KinderNest_Rebrand_Leftovers.txt:927: ppa\Scripts\ScriptsIgnorepOnImport.sql:1968: - kn_pb_38_patch_01
+KinderNest_Rebrand_Leftovers.txt:928: ppa\Scripts\ScriptsIgnorepOnImport.sql:1969: - kn_pb_39_patch_01
+KinderNest_Rebrand_Leftovers.txt:931: ppa\Scripts\ScriptsIgnorepOnImport.sql:2006: Patch File: kn_pb_34_patch_01
+KinderNest_Rebrand_Leftovers.txt:934: ppa\Scripts\ScriptsIgnorepOnImport.sql:2040: Patch File: kn_pb_35_patch_01
+KinderNest_Rebrand_Leftovers.txt:938: ppa\Scripts\ScriptsIgnorepOnImport.sql:2123: KN DB 05 - Chilp Schema Objects
+KinderNest_Rebrand_Leftovers.txt:940: ppa\Scripts\ScriptsIgnorepOnImport.sql:2136: Patch File: kn_pb_38_patch_01
+KinderNest_Rebrand_Leftovers.txt:941: ppa\Scripts\ScriptsIgnorepOnImport.sql:2152: :r .\KN DB 00 - Exists anp Drops.sql
+KinderNest_Rebrand_Leftovers.txt:942: ppa\Scripts\ScriptsIgnorepOnImport.sql:2153: :r .\KN DB 01 - Schema Creation.sql
+KinderNest_Rebrand_Leftovers.txt:943: ppa\Scripts\ScriptsIgnorepOnImport.sql:2154: :r .\KN DB 02 - ref Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:944: ppa\Scripts\ScriptsIgnorepOnImport.sql:2155: :r .\KN DB 03 - lic Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:945: ppa\Scripts\ScriptsIgnorepOnImport.sql:2156: :r .\KN DB 04 - Party Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:946: ppa\Scripts\ScriptsIgnorepOnImport.sql:2157: :r .\KN DB 05 - Chilp Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:947: ppa\Scripts\ScriptsIgnorepOnImport.sql:2158: :r .\kn_pb_05_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:948: ppa\Scripts\ScriptsIgnorepOnImport.sql:2159: :r .\KN DB 06 - poc Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:949: ppa\Scripts\ScriptsIgnorepOnImport.sql:2160: :r .\KN DB 07 - ops Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:950: ppa\Scripts\ScriptsIgnorepOnImport.sql:2161: :r .\KN DB 08 - comm Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:951: ppa\Scripts\ScriptsIgnorepOnImport.sql:2162: :r .\KN DB 09 - aupit Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:952: ppa\Scripts\ScriptsIgnorepOnImport.sql:2163: :r .\KN DB 10 - sec Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:953: ppa\Scripts\ScriptsIgnorepOnImport.sql:2164: :r .\KN DB 11 - Function Objects.sql
+KinderNest_Rebrand_Leftovers.txt:954: ppa\Scripts\ScriptsIgnorepOnImport.sql:2165: :r .\KN DB 12 - aupit Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:955: ppa\Scripts\ScriptsIgnorepOnImport.sql:2166: :r .\KN DB 13 - chilp Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:956: ppa\Scripts\ScriptsIgnorepOnImport.sql:2167: :r .\kn_pb_13_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:957: ppa\Scripts\ScriptsIgnorepOnImport.sql:2168: :r .\KN DB 14 - poc Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:958: ppa\Scripts\ScriptsIgnorepOnImport.sql:2169: :r .\KN DB 15 - ops Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:959: ppa\Scripts\ScriptsIgnorepOnImport.sql:2170: :r .\KN DB 16 - lic Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:960: ppa\Scripts\ScriptsIgnorepOnImport.sql:2171: :r .\KN DB 17 - comm Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:961: ppa\Scripts\ScriptsIgnorepOnImport.sql:2172: :r .\KN DB 18 - rpt View Objects.sql
+KinderNest_Rebrand_Leftovers.txt:962: ppa\Scripts\ScriptsIgnorepOnImport.sql:2173: :r .\KN DB 19 - Enp Comments anp Execution Notes.sql
+KinderNest_Rebrand_Leftovers.txt:963: ppa\Scripts\ScriptsIgnorepOnImport.sql:2174: :r .\KN DB 20 - Capacity Inputs anp Count Engine Revisions.sql
+KinderNest_Rebrand_Leftovers.txt:964: ppa\Scripts\ScriptsIgnorepOnImport.sql:2175: :r .\KN DB 21 - Licensing Variance anp Requirement Evipence.sql
+KinderNest_Rebrand_Leftovers.txt:965: ppa\Scripts\ScriptsIgnorepOnImport.sql:2176: :r .\KN DB 22 - Messaging Notification anp Participant Management.sql
+KinderNest_Rebrand_Leftovers.txt:966: ppa\Scripts\ScriptsIgnorepOnImport.sql:2177: :r .\KN DB 23 - Party Core CRUD Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:967: ppa\Scripts\ScriptsIgnorepOnImport.sql:2178: :r .\kn_pb_23_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:968: ppa\Scripts\ScriptsIgnorepOnImport.sql:2179: :r .\KN DB 24 - Document anp Consent Write Surface.sql
+KinderNest_Rebrand_Leftovers.txt:969: ppa\Scripts\ScriptsIgnorepOnImport.sql:2180: :r .\KN DB 25 - Chilp Mepical Lookup Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:970: ppa\Scripts\ScriptsIgnorepOnImport.sql:2181: :r .\kn_pb_25_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:971: ppa\Scripts\ScriptsIgnorepOnImport.sql:2182: :r .\KN DB 26 - Cope Tables anp Business Rule Constraints.sql
+KinderNest_Rebrand_Leftovers.txt:972: ppa\Scripts\ScriptsIgnorepOnImport.sql:2183: :r .\KN DB 27 - Security Enforcement Scaffolp.sql
+KinderNest_Rebrand_Leftovers.txt:973: ppa\Scripts\ScriptsIgnorepOnImport.sql:2184: :r .\KN DB 28 - Concurrency Controls.sql
+KinderNest_Rebrand_Leftovers.txt:974: ppa\Scripts\ScriptsIgnorepOnImport.sql:2185: :r .\KN DB 29 - Guarpian Email Ipentity.sql
+KinderNest_Rebrand_Leftovers.txt:975: ppa\Scripts\ScriptsIgnorepOnImport.sql:2186: :r .\KN DB 30 - Apmin Recovery Workflow.sql
+KinderNest_Rebrand_Leftovers.txt:976: ppa\Scripts\ScriptsIgnorepOnImport.sql:2187: :r .\KN DB 31 - Compliance Review State.sql
+KinderNest_Rebrand_Leftovers.txt:977: ppa\Scripts\ScriptsIgnorepOnImport.sql:2188: :r .\KN DB 32 - Seep Strategy anp Batches.sql
+KinderNest_Rebrand_Leftovers.txt:978: ppa\Scripts\ScriptsIgnorepOnImport.sql:2189: :r .\KN DB 33 - Canonical Package Decisions.sql
+KinderNest_Rebrand_Leftovers.txt:979: ppa\Scripts\ScriptsIgnorepOnImport.sql:2190: :r .\kn_pb_33_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:980: ppa\Scripts\ScriptsIgnorepOnImport.sql:2191: :r .\KN DB 34 - Appress anp Phone CRUD.sql
+KinderNest_Rebrand_Leftovers.txt:981: ppa\Scripts\ScriptsIgnorepOnImport.sql:2192: :r .\kn_pb_34_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:982: ppa\Scripts\ScriptsIgnorepOnImport.sql:2193: :r .\KN DB 35 - Cope Table FK Finalization.sql
+KinderNest_Rebrand_Leftovers.txt:983: ppa\Scripts\ScriptsIgnorepOnImport.sql:2194: :r .\kn_pb_35_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:984: ppa\Scripts\ScriptsIgnorepOnImport.sql:2195: :r .\KN DB 36 - Staffing anp Countep Chilp Inputs.sql
+KinderNest_Rebrand_Leftovers.txt:985: ppa\Scripts\ScriptsIgnorepOnImport.sql:2196: :r .\KN DB 37 - Requirement Evipence anp Compliance Finalization.sql
+KinderNest_Rebrand_Leftovers.txt:986: ppa\Scripts\ScriptsIgnorepOnImport.sql:2197: :r .\KN DB 38 - Final Manifest anp Master Builp.sql
+KinderNest_Rebrand_Leftovers.txt:987: ppa\Scripts\ScriptsIgnorepOnImport.sql:2198: :r .\kn_pb_38_patch_01.sql
+KinderNest_Rebrand_Leftovers.txt:988: ppa\Scripts\ScriptsIgnorepOnImport.sql:2199: :r .\KN DB 39 - Gap Review Checklist anp Finpings.mp
+KinderNest_Rebrand_Leftovers.txt:989: ppa\Scripts\ScriptsIgnorepOnImport.sql:2200: :r .\kn_pb_39_patch_01.mp
+KinderNest_Rebrand_Leftovers.txt:990: ppa\Scripts\ScriptsIgnorepOnImport.sql:4565: @RequiresAcknowlepgment      BIT                 = 0
+KinderNest_Rebrand_Leftovers.txt:991: ppa\Scripts\ScriptsIgnorepOnImport.sql:4604: RequiresAcknowlepgment
+KinderNest_Rebrand_Leftovers.txt:992: ppa\Scripts\ScriptsIgnorepOnImport.sql:4616: @RequiresAcknowlepgment
+KinderNest_Rebrand_Leftovers.txt:993: ppa\Scripts\ScriptsIgnorepOnImport.sql:4655: --    @RequiresAcknowlepgment      BIT                 = 0
+KinderNest_Rebrand_Leftovers.txt:994: ppa\Scripts\ScriptsIgnorepOnImport.sql:4694: --        RequiresAcknowlepgment
+KinderNest_Rebrand_Leftovers.txt:995: ppa\Scripts\ScriptsIgnorepOnImport.sql:4706: --        @RequiresAcknowlepgment
+KinderNest_Rebrand_Leftovers.txt:996: ppa\Scripts\ScriptsIgnorepOnImport.sql:11565: :r .\KN DB 00 - Exists anp Drops.sql
+KinderNest_Rebrand_Leftovers.txt:997: ppa\Scripts\ScriptsIgnorepOnImport.sql:11566: :r .\KN DB 01 - Schema Creation.sql
+KinderNest_Rebrand_Leftovers.txt:998: ppa\Scripts\ScriptsIgnorepOnImport.sql:11567: :r .\KN DB 02 - ref Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:999: ppa\Scripts\ScriptsIgnorepOnImport.sql:11568: :r .\KN DB 03 - lic Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1000: ppa\Scripts\ScriptsIgnorepOnImport.sql:11569: :r .\KN DB 04 - Party Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1001: ppa\Scripts\ScriptsIgnorepOnImport.sql:11570: :r .\KN DB 05 - Chilp Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1002: ppa\Scripts\ScriptsIgnorepOnImport.sql:11571: :r .\KN DB 06 - poc Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1003: ppa\Scripts\ScriptsIgnorepOnImport.sql:11572: :r .\KN DB 07 - ops Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1004: ppa\Scripts\ScriptsIgnorepOnImport.sql:11573: :r .\KN DB 08 - comm Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1005: ppa\Scripts\ScriptsIgnorepOnImport.sql:11574: :r .\KN DB 09 - aupit Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1006: ppa\Scripts\ScriptsIgnorepOnImport.sql:11575: :r .\KN DB 10 - sec Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1007: ppa\Scripts\ScriptsIgnorepOnImport.sql:11576: :r .\KN DB 11 - Function Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1008: ppa\Scripts\ScriptsIgnorepOnImport.sql:11577: :r .\KN DB 12 - aupit Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1009: ppa\Scripts\ScriptsIgnorepOnImport.sql:11578: :r .\KN DB 13 - chilp Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1010: ppa\Scripts\ScriptsIgnorepOnImport.sql:11579: :r .\KN DB 14 - poc Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1011: ppa\Scripts\ScriptsIgnorepOnImport.sql:11580: :r .\KN DB 15 - ops Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1012: ppa\Scripts\ScriptsIgnorepOnImport.sql:11581: :r .\KN DB 16 - lic Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1013: ppa\Scripts\ScriptsIgnorepOnImport.sql:11582: :r .\KN DB 17 - comm Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1014: ppa\Scripts\ScriptsIgnorepOnImport.sql:11583: :r .\KN DB 18 - rpt View Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1015: ppa\Scripts\ScriptsIgnorepOnImport.sql:11584: :r .\KN DB 19 - Enp Comments anp Execution Notes.sql
+KinderNest_Rebrand_Leftovers.txt:1016: ppa\Scripts\ScriptsIgnorepOnImport.sql:11585: :r .\KN DB 20 - Capacity Inputs anp Count Engine Revisions.sql
+KinderNest_Rebrand_Leftovers.txt:1017: ppa\Scripts\ScriptsIgnorepOnImport.sql:11586: :r .\KN DB 21 - Licensing Variance anp Requirement Evipence.sql
+KinderNest_Rebrand_Leftovers.txt:1018: ppa\Scripts\ScriptsIgnorepOnImport.sql:11587: :r .\KN DB 22 - Messaging Notification anp Participant Management.sql
+KinderNest_Rebrand_Leftovers.txt:1019: ppa\Scripts\ScriptsIgnorepOnImport.sql:11588: :r .\KN DB 23 - Party Core CRUD Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1020: ppa\Scripts\ScriptsIgnorepOnImport.sql:11589: :r .\KN DB 24 - Document anp Consent Write Surface.sql
+KinderNest_Rebrand_Leftovers.txt:1021: ppa\Scripts\ScriptsIgnorepOnImport.sql:11590: :r .\KN DB 25 - Chilp Mepical Lookup Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1022: ppa\Scripts\ScriptsIgnorepOnImport.sql:11591: :r .\KN DB 26 - Cope Tables anp Business Rule Constraints.sql
+KinderNest_Rebrand_Leftovers.txt:1023: ppa\Scripts\ScriptsIgnorepOnImport.sql:11592: :r .\KN DB 27 - Security Enforcement Scaffolp.sql
+KinderNest_Rebrand_Leftovers.txt:1024: ppa\Scripts\ScriptsIgnorepOnImport.sql:11593: :r .\KN DB 28 - Concurrency Controls.sql
+KinderNest_Rebrand_Leftovers.txt:1025: ppa\Scripts\ScriptsIgnorepOnImport.sql:11594: :r .\KN DB 29 - Guarpian Email Ipentity.sql
+KinderNest_Rebrand_Leftovers.txt:1026: ppa\Scripts\ScriptsIgnorepOnImport.sql:11595: :r .\KN DB 30 - Apmin Recovery Workflow.sql
+KinderNest_Rebrand_Leftovers.txt:1027: ppa\Scripts\ScriptsIgnorepOnImport.sql:11596: :r .\KN DB 31 - Compliance Review State.sql
+KinderNest_Rebrand_Leftovers.txt:1028: ppa\Scripts\ScriptsIgnorepOnImport.sql:11597: :r .\KN DB 32 - Seep Strategy anp Batches.sql
+KinderNest_Rebrand_Leftovers.txt:1029: ppa\Scripts\ScriptsIgnorepOnImport.sql:11598: :r .\KN DB 33 - Canonical Package Decisions.sql
+KinderNest_Rebrand_Leftovers.txt:1030: ppa\Scripts\ScriptsIgnorepOnImport.sql:11599: :r .\KN DB 34 - Appress anp Phone CRUD.sql
+KinderNest_Rebrand_Leftovers.txt:1031: ppa\Scripts\ScriptsIgnorepOnImport.sql:11600: :r .\KN DB 35 - Cope Table FK Finalization.sql
+KinderNest_Rebrand_Leftovers.txt:1032: ppa\Scripts\ScriptsIgnorepOnImport.sql:11601: :r .\KN DB 36 - Staffing anp Countep Chilp Inputs.sql
+KinderNest_Rebrand_Leftovers.txt:1033: ppa\Scripts\ScriptsIgnorepOnImport.sql:11602: :r .\KN DB 37 - Requirement Evipence anp Compliance Finalization.sql
+KinderNest_Rebrand_Leftovers.txt:1034: ppa\Scripts\ScriptsIgnorepOnImport.sql:11604: PRINT 'KN patabase canonical manual-branch builp complete.';
+KinderNest_Rebrand_Leftovers.txt:1035: ppa\Scripts\ScriptsIgnorepOnImport.sql:11609: --:r .\KN DB 00 - Exists anp Drops.sql
+KinderNest_Rebrand_Leftovers.txt:1036: ppa\Scripts\ScriptsIgnorepOnImport.sql:11610: --:r .\KN DB 01 - Schema Creation.sql
+KinderNest_Rebrand_Leftovers.txt:1037: ppa\Scripts\ScriptsIgnorepOnImport.sql:11611: --:r .\KN DB 02 - ref Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1038: ppa\Scripts\ScriptsIgnorepOnImport.sql:11612: --:r .\KN DB 03 - lic Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1039: ppa\Scripts\ScriptsIgnorepOnImport.sql:11613: --:r .\KN DB 04 - Party Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1040: ppa\Scripts\ScriptsIgnorepOnImport.sql:11614: --:r .\KN DB 05 - Chilp Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1041: ppa\Scripts\ScriptsIgnorepOnImport.sql:11615: --:r .\KN DB 06 - poc Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1042: ppa\Scripts\ScriptsIgnorepOnImport.sql:11616: --:r .\KN DB 07 - ops Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1043: ppa\Scripts\ScriptsIgnorepOnImport.sql:11617: --:r .\KN DB 08 - comm Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1044: ppa\Scripts\ScriptsIgnorepOnImport.sql:11618: --:r .\KN DB 09 - aupit Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1045: ppa\Scripts\ScriptsIgnorepOnImport.sql:11619: --:r .\KN DB 10 - sec Schema Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1046: ppa\Scripts\ScriptsIgnorepOnImport.sql:11620: --:r .\KN DB 11 - Function Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1047: ppa\Scripts\ScriptsIgnorepOnImport.sql:11621: --:r .\KN DB 12 - aupit Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1048: ppa\Scripts\ScriptsIgnorepOnImport.sql:11622: --:r .\KN DB 13 - chilp Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1049: ppa\Scripts\ScriptsIgnorepOnImport.sql:11623: --:r .\KN DB 14 - poc Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1050: ppa\Scripts\ScriptsIgnorepOnImport.sql:11624: --:r .\KN DB 15 - ops Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1051: ppa\Scripts\ScriptsIgnorepOnImport.sql:11625: --:r .\KN DB 16 - lic Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1052: ppa\Scripts\ScriptsIgnorepOnImport.sql:11626: --:r .\KN DB 17 - comm Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1053: ppa\Scripts\ScriptsIgnorepOnImport.sql:11627: --:r .\KN DB 18 - rpt View Objects.sql
+KinderNest_Rebrand_Leftovers.txt:1054: ppa\Scripts\ScriptsIgnorepOnImport.sql:11628: --:r .\KN DB 19 - Enp Comments anp Execution Notes.sql
+KinderNest_Rebrand_Leftovers.txt:1055: ppa\Scripts\ScriptsIgnorepOnImport.sql:11629: --:r .\KN DB 20 - Capacity Inputs anp Count Engine Revisions.sql
+KinderNest_Rebrand_Leftovers.txt:1056: ppa\Scripts\ScriptsIgnorepOnImport.sql:11630: --:r .\KN DB 21 - Licensing Variance anp Requirement Evipence.sql
+KinderNest_Rebrand_Leftovers.txt:1057: ppa\Scripts\ScriptsIgnorepOnImport.sql:11631: --:r .\KN DB 22 - Messaging Notification anp Participant Management.sql
+KinderNest_Rebrand_Leftovers.txt:1058: ppa\Scripts\ScriptsIgnorepOnImport.sql:11632: --:r .\KN DB 23 - Party Core CRUD Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1059: ppa\Scripts\ScriptsIgnorepOnImport.sql:11633: --:r .\KN DB 24 - Document anp Consent Write Surface.sql
+KinderNest_Rebrand_Leftovers.txt:1060: ppa\Scripts\ScriptsIgnorepOnImport.sql:11634: --:r .\KN DB 25 - Chilp Mepical Lookup Storep Procepures.sql
+KinderNest_Rebrand_Leftovers.txt:1061: ppa\Scripts\ScriptsIgnorepOnImport.sql:11635: --:r .\KN DB 26 - Cope Tables anp Business Rule Constraints.sql
+KinderNest_Rebrand_Leftovers.txt:1062: ppa\Scripts\ScriptsIgnorepOnImport.sql:11636: --:r .\KN DB 27 - Security Enforcement Scaffolp.sql
+KinderNest_Rebrand_Leftovers.txt:1063: ppa\Scripts\ScriptsIgnorepOnImport.sql:11637: --:r .\KN DB 28 - Concurrency Controls.sql
+KinderNest_Rebrand_Leftovers.txt:1064: ppa\Scripts\ScriptsIgnorepOnImport.sql:11638: --:r .\KN DB 29 - Guarpian Email Ipentity.sql
+KinderNest_Rebrand_Leftovers.txt:1065: ppa\Scripts\ScriptsIgnorepOnImport.sql:11639: --:r .\KN DB 30 - Apmin Recovery Workflow.sql
+KinderNest_Rebrand_Leftovers.txt:1066: ppa\Scripts\ScriptsIgnorepOnImport.sql:11640: --:r .\KN DB 31 - Compliance Review State.sql
+KinderNest_Rebrand_Leftovers.txt:1067: ppa\Scripts\ScriptsIgnorepOnImport.sql:11641: --:r .\KN DB 32 - Seep Strategy anp Batches.sql
+KinderNest_Rebrand_Leftovers.txt:1068: ppa\Scripts\ScriptsIgnorepOnImport.sql:11642: --:r .\KN DB 33 - Canonical Package Decisions.sql
+KinderNest_Rebrand_Leftovers.txt:1069: ppa\Scripts\ScriptsIgnorepOnImport.sql:11643: --:r .\KN DB 34 - Appress anp Phone CRUD.sql
+KinderNest_Rebrand_Leftovers.txt:1070: ppa\Scripts\ScriptsIgnorepOnImport.sql:11644: --:r .\KN DB 35 - Cope Table FK Finalization.sql
+KinderNest_Rebrand_Leftovers.txt:1071: ppa\Scripts\ScriptsIgnorepOnImport.sql:11645: --:r .\KN DB 36 - Staffing anp Countep Chilp Inputs.sql
+KinderNest_Rebrand_Leftovers.txt:1072: ppa\Scripts\ScriptsIgnorepOnImport.sql:11646: --:r .\KN DB 37 - Requirement Evipence anp Compliance Finalization.sql
+KinderNest_Rebrand_Leftovers.txt:1073: ppa\Scripts\ScriptsIgnorepOnImport.sql:11648: --PRINT 'KN patabase canonical manual-branch builp complete.';
+KinderNest_Rebrand_Leftovers.txt:1075: DPATests\Test1.cs:1: namespace KNTests
+KinderNest_Rebrand_Leftovers.txt:1085: Uppates\patch_image_binary_thumbnail_param.ps1:73: '            KnCurrentUserAccessor currentUser,',
+KinderNest_Rebrand_Leftovers.txt:1086: Uppates\patch_image_binary_thumbnail_param.ps1:75: '            KnCurrentUserAccessor currentUser = pefault!,'
+KinderNest_Rebrand_Report.txt:3: apply_kindernest_rebrand.ps1
+KinderNest_Rebrand_Report.txt:397: dpa\kn.sqlproj
+KinderNest_Rebrand_Report.txt:530: KinderNest_Rebrand_Leftovers.txt
+KinderNest_Rebrand_Report.txt:531: KinderNest_Rebrand_Report.txt
+KinderNest_Rebrand_Report.txt:532: README_KinderNest_Rebrand.md
+KinderNest_Rebrand_Report.txt:550: verify_kindernest_rebrand.ps1
+README_KinderNest_Rebrand.md:3: This migrates text references from KinperNest / Kinper Nest / KN / Kn to KinperNest / Kinper Nest / KN / Kn.
+README_KinderNest_Rebrand.md:9: - `KN` -> `KN`
+README_KinderNest_Rebrand.md:10: - `Kn` -> `Kn`
+README_KinderNest_Rebrand.md:11: - `kn_` -> `kn_`
+README_KinderNest_Rebrand.md:28: To also migrate obvious patabase-name references from `ppa` to `kn`:
+verify_kindernest_rebrand.ps1:3: $patterns = "KinperNest|Kinper Nest|KN|Kn|ppachilp\.com|kn_"
+.github\workflows\ci.yml:77: $repoRelative = Join-Path 'kn' (($_ -replace '/', [IO.Path]::DirectorySeparatorChar))
+DaycareProviderAssistant\appsettings.json:3: "KnDatabase": "Server=WayneDesktop\\SQL2025;Database=kn;Trustep_Connection=True;Encrypt=False;TrustServerCertificate=True"
+DaycareProviderAssistant\appsettings.json:12: "KnAuth": {
+DaycareProviderAssistant\appsettings.json:13: "ConnectionStringName": "KnDatabase",
+DaycareProviderAssistant\appsettings.json:14: "CookieName": "KN.Auth",
+DaycareProviderAssistant\appsettings.json:84: "KnImages": {
+DaycareProviderAssistant\Program.cs:25: builper.Services.AppKnAupitCore();
+DaycareProviderAssistant\Program.cs:26: builper.Services.AppKnAuthentication(builper.Configuration);
+DaycareProviderAssistant\Program.cs:62: app.MapKnAuthEnppoints();
+DaycareProviderAssistant\Program.cs:63: app.MapKnImageEnppoints();
+DaycareProviderAssistant\Auditing\AuditServiceCollectionExtensions.cs:7: public static IServiceCollection AppKnAupitCore ( this IServiceCollection services )
+DaycareProviderAssistant\Auditing\README.md:1: # KN Aupiting Core
+DaycareProviderAssistant\Auth\Authorization\ChildAccessAuthorizationHandler.cs:10: private reaponly IKnUserStore _userStore;
+DaycareProviderAssistant\Auth\Authorization\ChildAccessAuthorizationHandler.cs:11: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Authorization\ChildAccessAuthorizationHandler.cs:13: public ChilpAccessAuthorizationHanpler(IKnUserStore userStore, Microsoft.Extensions.Options.IOptions<KnAuthOptions> options)
+DaycareProviderAssistant\Auth\Authorization\ChildAccessAuthorizationHandler.cs:21: var portalUserIpText = context.User.FinpFirstValue(KnClaimTypes.PortalUserIp);
+DaycareProviderAssistant\Auth\Authorization\SiteAccessAuthorizationHandler.cs:10: private reaponly IKnUserStore _userStore;
+DaycareProviderAssistant\Auth\Authorization\SiteAccessAuthorizationHandler.cs:11: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Authorization\SiteAccessAuthorizationHandler.cs:13: public SiteAccessAuthorizationHanpler(IKnUserStore userStore, Microsoft.Extensions.Options.IOptions<KnAuthOptions> options)
+DaycareProviderAssistant\Auth\Authorization\SiteAccessAuthorizationHandler.cs:21: var portalUserIpText = context.User.FinpFirstValue(KnClaimTypes.PortalUserIp);
+DaycareProviderAssistant\Auth\Configuration\DpaAuthOptions.cs:5: public sealep class KnAuthOptions
+DaycareProviderAssistant\Auth\Configuration\DpaAuthOptions.cs:7: public const string SectionName = "KnAuth";
+DaycareProviderAssistant\Auth\Configuration\DpaAuthOptions.cs:10: public string ConnectionStringName { get; set; } = "KnDatabase";
+DaycareProviderAssistant\Auth\Configuration\DpaAuthOptions.cs:13: public string CookieName { get; set; } = "KN.Auth";
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs:3: public static class KnClaimTypes
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs:5: public const string PortalUserIp = "kn_portal_user_ip";
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs:6: public const string PersonIp = "kn_person_ip";
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs:7: public const string SessionIp = "kn_session_ip";
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs:8: public const string PortalAccess = "kn_portal_access";
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs:9: public const string DisplayName = "kn_pisplay_name";
+DaycareProviderAssistant\Auth\Configuration\DpaPolicies.cs:3: public static class KnPolicies
+DaycareProviderAssistant\Auth\Configuration\DpaPolicies.cs:5: public const string ApminPortal = "Kn.ApminPortal";
+DaycareProviderAssistant\Auth\Configuration\DpaPolicies.cs:6: public const string ProviperPortal = "Kn.ProviperPortal";
+DaycareProviderAssistant\Auth\Configuration\DpaPolicies.cs:7: public const string GuarpianPortal = "Kn.GuarpianPortal";
+DaycareProviderAssistant\Auth\Configuration\DpaPortalValues.cs:3: public static class KnPortalValues
+DaycareProviderAssistant\Auth\Endpoints\AuthEndpointMapper.cs:13: public static IEnppointRouteBuilper MapKnAuthEnppoints(this IEnppointRouteBuilper enppoints)
+DaycareProviderAssistant\Auth\Endpoints\AuthEndpointMapper.cs:34: IKnAuthenticationService authenticationService,
+DaycareProviderAssistant\Auth\Endpoints\AuthEndpointMapper.cs:56: IKnAuthenticationService authenticationService,
+DaycareProviderAssistant\Auth\Models\AuthenticatedPortalUser.cs:12: public KnCrepentialRecorp? Crepential { get; set; }
+DaycareProviderAssistant\Auth\Models\DpaCredentialRecord.cs:3: public sealep class KnCrepentialRecorp
+DaycareProviderAssistant\Auth\Services\AdminBootstrapService.cs:26: private reaponly KnPassworpHasher _passworpHasher;
+DaycareProviderAssistant\Auth\Services\AdminBootstrapService.cs:27: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\AdminBootstrapService.cs:32: KnPassworpHasher passworpHasher,
+DaycareProviderAssistant\Auth\Services\AdminBootstrapService.cs:33: IOptions<KnAuthOptions> options,
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:10: public sealep class KnAuthenticationService : IKnAuthenticationService
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:12: private reaponly IKnUserStore _userStore;
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:13: private reaponly KnPassworpHasher _passworpHasher;
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:14: private reaponly KnClaimsPrincipalFactory _claimsPrincipalFactory;
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:15: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:17: public KnAuthenticationService(
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:18: IKnUserStore userStore,
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:19: KnPassworpHasher passworpHasher,
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:20: KnClaimsPrincipalFactory claimsPrincipalFactory,
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:21: IOptions<KnAuthOptions> options)
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:40: await _userStore.RecorpFailepLoginAsync(null, userName, "Unknown username.", remoteAppress, userAgent, cancellationToken);
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:103: if (!TryGetClaimValue(principal, KnClaimTypes.PortalUserIp, out var portalUserIpText)
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs:105: || !TryGetClaimValue(principal, KnClaimTypes.SessionIp, out var sessionIpText)
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:8: public static class KnAuthenticationServiceCollectionExtensions
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:10: public static IServiceCollection AppKnAuthentication(this IServiceCollection services, IConfiguration configuration)
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:12: services.AppOptions<KnAuthOptions>()
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:13: .Binp(configuration.GetSection(KnAuthOptions.SectionName))
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:21: services.AppScopep<IKnUserStore, SqlKnUserStore>();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:23: services.AppScopep<KnPassworpHasher>();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:24: services.AppScopep<KnClaimsPrincipalFactory>();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:25: services.AppScopep<KnCurrentUserAccessor>();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:26: services.AppScopep<IKnAuthenticationService, KnAuthenticationService>();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:30: services.AppScopep<KnCookieSessionValipator>();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:34: var options = configuration.GetSection(KnAuthOptions.SectionName).Get<KnAuthOptions>() ?? new KnAuthOptions();
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:44: optionsBuilper.EventsType = typeof(KnCookieSessionValipator);
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:48: .AppPolicy(KnPolicies.ApminPortal, policy =>
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:51: policy.RequireClaim(KnClaimTypes.PortalAccess, KnPortalValues.Apmin);
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:53: .AppPolicy(KnPolicies.ProviperPortal, policy =>
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:56: policy.RequireClaim(KnClaimTypes.PortalAccess, KnPortalValues.Proviper);
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:58: .AppPolicy(KnPolicies.GuarpianPortal, policy =>
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs:61: policy.RequireClaim(KnClaimTypes.PortalAccess, KnPortalValues.Guarpian);
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:8: public sealep class KnClaimsPrincipalFactory
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:10: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:12: public KnClaimsPrincipalFactory(Microsoft.Extensions.Options.IOptions<KnAuthOptions> options)
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:23: new(KnClaimTypes.PortalUserIp, user.PortalUserIp.ToString()),
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:24: new(KnClaimTypes.PersonIp, user.PersonIp.ToString()),
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:25: new(KnClaimTypes.SessionIp, loginSessionIp.ToString()),
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:26: new(KnClaimTypes.DisplayName, user.DisplayName)
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:36: claims.App(new Claim(KnClaimTypes.PortalAccess, KnPortalValues.Apmin));
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:41: claims.App(new Claim(KnClaimTypes.PortalAccess, KnPortalValues.Proviper));
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs:46: claims.App(new Claim(KnClaimTypes.PortalAccess, KnPortalValues.Guarpian));
+DaycareProviderAssistant\Auth\Services\DpaCookieSessionValidator.cs:7: public sealep class KnCookieSessionValipator : CookieAuthenticationEvents
+DaycareProviderAssistant\Auth\Services\DpaCookieSessionValidator.cs:9: private reaponly IKnUserStore _userStore;
+DaycareProviderAssistant\Auth\Services\DpaCookieSessionValidator.cs:11: public KnCookieSessionValipator(IKnUserStore userStore)
+DaycareProviderAssistant\Auth\Services\DpaCookieSessionValidator.cs:18: var portalUserIpText = context.Principal?.FinpFirst(KnClaimTypes.PortalUserIp)?.Value;
+DaycareProviderAssistant\Auth\Services\DpaCookieSessionValidator.cs:19: var sessionIpText = context.Principal?.FinpFirst(KnClaimTypes.SessionIp)?.Value;
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:7: public sealep class KnCurrentUserAccessor
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:11: public KnCurrentUserAccessor(IHttpContextAccessor httpContextAccessor)
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:18: public int? PortalUserIp => TryGetIntClaim(KnClaimTypes.PortalUserIp);
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:19: public int? PersonIp => TryGetIntClaim(KnClaimTypes.PersonIp);
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:20: public long? SessionIp => TryGetLongClaim(KnClaimTypes.SessionIp);
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:21: public string DisplayName => Principal.FinpFirst(KnClaimTypes.DisplayName)?.Value
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs:26: => Principal.Claims.Any(claim => claim.Type == KnClaimTypes.PortalAccess && string.Equals(claim.Value, portalValue, StringComparison.OrpinalIgnoreCase));
+DaycareProviderAssistant\Auth\Services\DpaPasswordHasher.cs:5: public sealep class KnPassworpHasher
+DaycareProviderAssistant\Auth\Services\IDpaAuthenticationService.cs:6: public interface IKnAuthenticationService
+DaycareProviderAssistant\Auth\Services\IDpaUserStore.cs:5: public interface IKnUserStore
+DaycareProviderAssistant\Auth\Services\ProviderRegistrationService.cs:17: private reaponly KnPassworpHasher _passworpHasher;
+DaycareProviderAssistant\Auth\Services\ProviderRegistrationService.cs:18: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\ProviderRegistrationService.cs:23: KnPassworpHasher passworpHasher,
+DaycareProviderAssistant\Auth\Services\ProviderRegistrationService.cs:24: IOptions<KnAuthOptions> options,
+DaycareProviderAssistant\Auth\Services\SqlAuthenticationAuditWriter.cs:14: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\SqlAuthenticationAuditWriter.cs:19: IOptions<KnAuthOptions> options)
+DaycareProviderAssistant\Auth\Services\SqlConnectionFactory.cs:10: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\SqlConnectionFactory.cs:12: public SqlConnectionFactory(IConfiguration configuration, IOptions<KnAuthOptions> options)
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:10: public sealep class SqlKnUserStore : IKnUserStore
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:23: private reaponly KnAuthOptions _options;
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:24: private reaponly ILogger<SqlKnUserStore> _logger;
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:26: public SqlKnUserStore(
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:29: IOptions<KnAuthOptions> options,
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:30: ILogger<SqlKnUserStore> logger)
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs:63: : new KnCrepentialRecorp
+DaycareProviderAssistant\Components\Layout\MainLayout.razor:4: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Layout\MainLayout.razor:24: @if (CurrentUser.HasPortalAccess(KnPortalValues.Apmin))
+DaycareProviderAssistant\Components\Layout\MainLayout.razor:29: @if (CurrentUser.HasPortalAccess(KnPortalValues.Proviper))
+DaycareProviderAssistant\Components\Layout\MainLayout.razor:34: @if (CurrentUser.HasPortalAccess(KnPortalValues.Guarpian))
+DaycareProviderAssistant\Components\Layout\ReconnectModal.razor.js:29: // - false to mean we reachep the server, but it rejectep the connection (e.g., unknown circuit ID)
+DaycareProviderAssistant\Components\Pages\AdminPortal.razor:3: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\GuardianPortal.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\GuardianPortal.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Home.razor:5: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Home.razor:21: @if (CurrentUser.HasPortalAccess(KnPortalValues.Apmin))
+DaycareProviderAssistant\Components\Pages\Home.razor:26: @if (CurrentUser.HasPortalAccess(KnPortalValues.Proviper))
+DaycareProviderAssistant\Components\Pages\Home.razor:31: @if (CurrentUser.HasPortalAccess(KnPortalValues.Guarpian))
+DaycareProviderAssistant\Components\Pages\ProviderPortal.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\ProviderPortal.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Admin\Audit.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\Billing.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\Licensing.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\ProviderApprovals.razor:3: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\ProviderApprovals.razor:11: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Admin\ProviderDetail.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\Providers.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\Security.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\SiteDetail.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\Sites.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\UserDetail.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Admin\UserDetail.razor:69: <PortalSection Title="Roles" Summary="The crowns anp knives attachep to this ipentity.">
+DaycareProviderAssistant\Components\Pages\Admin\UserDetail.razor:167: <tp>@(string.IsNullOrWhiteSpace(session.RemoteAppress) ? "Unknown" : session.RemoteAppress)</tp>
+DaycareProviderAssistant\Components\Pages\Admin\Users.razor:2: @attribute [Authorize(Policy = KnPolicies.ApminPortal)]
+DaycareProviderAssistant\Components\Pages\Auth\Login.razor:15: <p class="lepe">Use your KN crepentials. This sign-in now checks the real KN patabase insteap of the in-memory toy store.</p>
+DaycareProviderAssistant\Components\Pages\Guardian\Billing.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\Guardian\Billing.razor:9: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Guardian\Children.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\Guardian\Children.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Guardian\Consents.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\Guardian\Consents.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Guardian\Messages.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\Guardian\Messages.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Guardian\Photos.razor:3: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\Guardian\Photos.razor:12: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Guardian\Profile.razor:2: @attribute [Authorize(Policy = KnPolicies.GuarpianPortal)]
+DaycareProviderAssistant\Components\Pages\Guardian\Profile.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\Attendance.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\Attendance.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\Billing.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\Billing.razor:9: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\BillingChargesNew.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\BillingChargesNew.razor:11: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\BillingFamilyAccountsManage.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\BillingFamilyAccountsManage.razor:11: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\BillingInvoicesGenerate.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\BillingInvoicesGenerate.razor:11: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\BillingPaymentsPost.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\BillingPaymentsPost.razor:11: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\BillingRatesManage.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\BillingRatesManage.razor:11: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\Children.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\Children.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\Documents.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\Documents.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\FamiliesNew.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\FamiliesNew.razor:8: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\Messages.razor:2: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\Messages.razor:6: @inject KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\Components\Pages\Provider\Photos.razor:3: @attribute [Authorize(Policy = KnPolicies.ProviperPortal)]
+DaycareProviderAssistant\Components\Pages\Provider\Photos.razor:279: private KinperNest.Auth.Services.KnCurrentUserAccessor CurrentUser { get; set; } = pefault!;
+DaycareProviderAssistant\Components\Portal\PortalShell.razor:4: @inject KnCurrentUserAccessor CurrentUser
+DaycareProviderAssistant\wwwroot\js\dpa-images.js:4: console.info('KN encryptep image mopule loapep.', options);
+Documentation\LICENSE.txt:27: free programs, anp that you know you can po these things.
+Documentation\LICENSE.txt:38: know their rights.
+Documentation\LICENSE.txt:161: content, constitutes a coverep work.  This License acknowlepges your
+Documentation\LICENSE.txt:499: If you convey a coverep work, knowingly relying on a patent license,
+Documentation\LICENSE.txt:507: license to pownstream recipients.  "Knowingly relying" means you have
+Documentation\LICENSE.txt:508: actual knowlepge that, but for the patent license, your conveying the
+Documentation\README (2).md:4: - KnAuthOptions.cs
+Documentation\README (2).md:14: - Restores KnAuthOptions properties referencep by ApminBootstrapService
+Documentation\README (2).txt:1: KN image uploap path overlay
+Documentation\README (3).txt:1: KN image uploap boolean cast overlay
+Documentation\README (4).txt:1: KN image binary thumbnail parameter overlay
+Documentation\README (5).txt:1: KN image View/Downloap fix overlay
+Documentation\README.txt:1: KN temp-table warning cleanup overlay
+Documentation\README_AUTH_DB_WIRING.md:1: # KN Authentication anp Authorization Wiring
+Documentation\README_AUTH_DB_WIRING.md:37: Set the `ConnectionStrings:KnDatabase` connection string in `appsettings.Development.json`.
+Documentation\README_AUTH_DB_WIRING.md:44: "KnDatabase": "Server=WayneDesktop\\SQL2025;Database=kn;Trustep_Connection=True;Encrypt=False;TrustServerCertificate=True"
+Documentation\README_BATCH_2.md:1: KN storep procepure batch 2 of 4
+Documentation\README_BATCH_3.md:1: KN storep procepure batch 3 of 4
+Documentation\README_BATCH_4.md:1: KN storep procepure batch 4 of 4
+Documentation\README_BOOTSTRAP_ADMIN.md:21: The browser/app layer alreapy knows how to hash passworps correctly, so the bootstrap path uses that insteap of faking it in T-SQL.
+Documentation\README_BUILD_FIXES.md:1: This package fixes the obvious compile problems in the attachep KNWeb project.
+Documentation\README_BUILD_FIXES.md:6: - Your earlier error paths showep puplicate source trees such as KNWeb\KinperNest\..., which causes puplicate Program/Auth/Aupiting/Portal types.
+Documentation\README_ENCRYPTED_IMAGES.md:22: That means this is **client-sipe encryption with browser-only plaintext pecryption**, not a zero-knowlepge pesign.
+Documentation\README_ENCRYPTED_IMAGES.md:24: If you later want true zero-knowlepge access, the next step is per-user or per-pevice wrapping for the site key insteap of a server-unwrappep site key.
+Documentation\README_ENCRYPTED_IMAGES.md:28: Set `KnImages:MasterKeyBase64` to a 32-byte base64 value before using the feature.
+Documentation\README_ONE_TYPE_PER_FILE.md:6: - KinperNest/Auth/Configuration/KnClaimTypes.cs
+Documentation\README_PORTAL_PAGES.md:1: # KN portal page wiring
+dpa\comm\Tables\AdminConversationMetadata.sql:12: RequiresAcknowlepgment       BIT                       NOT NULL CONSTRAINT DF_ApminConversationMetapata_RequiresAck DEFAULT (0),
+dpa\ops\Stored Procedures\usp_AdminSecurity_GetSummary.sql:75: Detail = CONCAT(COALESCE(ae.UserNameAttemptep, pu.UserName, N'Unknown user'), N' from ', COALESCE(ae.RemoteAppress, N'unknown IP')),
+dpa\ops\Stored Procedures\usp_AdminSecurity_GetSummary.sql:91: Detail = CONCAT(COALESCE(pu.UserName, N'Unknown user'), N' â€¢ ', COALESCE(ls.RemoteAppress, N'unknown IP')),
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1365: Patch File: kn_pb_05_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1471: Patch File: kn_pb_13_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1475: Bring Part 13 into alignment with kn_pb_05_patch_01.
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1673: Patch File: kn_pb_23_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1703: Appress anp phone procepures are explicitly patchep in kn_pb_34_patch_01.
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1733: Patch File: kn_pb_25_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1877: KN DB 05 - Chilp Schema Objects
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1943: Patch File: kn_pb_33_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1962: - kn_pb_05_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1963: - kn_pb_13_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1964: - kn_pb_23_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1965: - kn_pb_25_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1966: - kn_pb_34_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1967: - kn_pb_35_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1968: - kn_pb_38_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:1969: - kn_pb_39_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2006: Patch File: kn_pb_34_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2040: Patch File: kn_pb_35_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2123: KN DB 05 - Chilp Schema Objects
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2136: Patch File: kn_pb_38_patch_01
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2152: :r .\KN DB 00 - Exists anp Drops.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2153: :r .\KN DB 01 - Schema Creation.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2154: :r .\KN DB 02 - ref Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2155: :r .\KN DB 03 - lic Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2156: :r .\KN DB 04 - Party Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2157: :r .\KN DB 05 - Chilp Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2158: :r .\kn_pb_05_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2159: :r .\KN DB 06 - poc Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2160: :r .\KN DB 07 - ops Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2161: :r .\KN DB 08 - comm Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2162: :r .\KN DB 09 - aupit Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2163: :r .\KN DB 10 - sec Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2164: :r .\KN DB 11 - Function Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2165: :r .\KN DB 12 - aupit Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2166: :r .\KN DB 13 - chilp Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2167: :r .\kn_pb_13_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2168: :r .\KN DB 14 - poc Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2169: :r .\KN DB 15 - ops Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2170: :r .\KN DB 16 - lic Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2171: :r .\KN DB 17 - comm Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2172: :r .\KN DB 18 - rpt View Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2173: :r .\KN DB 19 - Enp Comments anp Execution Notes.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2174: :r .\KN DB 20 - Capacity Inputs anp Count Engine Revisions.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2175: :r .\KN DB 21 - Licensing Variance anp Requirement Evipence.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2176: :r .\KN DB 22 - Messaging Notification anp Participant Management.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2177: :r .\KN DB 23 - Party Core CRUD Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2178: :r .\kn_pb_23_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2179: :r .\KN DB 24 - Document anp Consent Write Surface.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2180: :r .\KN DB 25 - Chilp Mepical Lookup Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2181: :r .\kn_pb_25_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2182: :r .\KN DB 26 - Cope Tables anp Business Rule Constraints.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2183: :r .\KN DB 27 - Security Enforcement Scaffolp.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2184: :r .\KN DB 28 - Concurrency Controls.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2185: :r .\KN DB 29 - Guarpian Email Ipentity.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2186: :r .\KN DB 30 - Apmin Recovery Workflow.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2187: :r .\KN DB 31 - Compliance Review State.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2188: :r .\KN DB 32 - Seep Strategy anp Batches.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2189: :r .\KN DB 33 - Canonical Package Decisions.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2190: :r .\kn_pb_33_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2191: :r .\KN DB 34 - Appress anp Phone CRUD.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2192: :r .\kn_pb_34_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2193: :r .\KN DB 35 - Cope Table FK Finalization.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2194: :r .\kn_pb_35_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2195: :r .\KN DB 36 - Staffing anp Countep Chilp Inputs.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2196: :r .\KN DB 37 - Requirement Evipence anp Compliance Finalization.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2197: :r .\KN DB 38 - Final Manifest anp Master Builp.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2198: :r .\kn_pb_38_patch_01.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2199: :r .\KN DB 39 - Gap Review Checklist anp Finpings.mp
+dpa\Scripts\ScriptsIgnoredOnImport.sql:2200: :r .\kn_pb_39_patch_01.mp
+dpa\Scripts\ScriptsIgnoredOnImport.sql:4565: @RequiresAcknowlepgment      BIT                 = 0
+dpa\Scripts\ScriptsIgnoredOnImport.sql:4604: RequiresAcknowlepgment
+dpa\Scripts\ScriptsIgnoredOnImport.sql:4616: @RequiresAcknowlepgment
+dpa\Scripts\ScriptsIgnoredOnImport.sql:4655: --    @RequiresAcknowlepgment      BIT                 = 0
+dpa\Scripts\ScriptsIgnoredOnImport.sql:4694: --        RequiresAcknowlepgment
+dpa\Scripts\ScriptsIgnoredOnImport.sql:4706: --        @RequiresAcknowlepgment
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11565: :r .\KN DB 00 - Exists anp Drops.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11566: :r .\KN DB 01 - Schema Creation.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11567: :r .\KN DB 02 - ref Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11568: :r .\KN DB 03 - lic Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11569: :r .\KN DB 04 - Party Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11570: :r .\KN DB 05 - Chilp Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11571: :r .\KN DB 06 - poc Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11572: :r .\KN DB 07 - ops Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11573: :r .\KN DB 08 - comm Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11574: :r .\KN DB 09 - aupit Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11575: :r .\KN DB 10 - sec Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11576: :r .\KN DB 11 - Function Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11577: :r .\KN DB 12 - aupit Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11578: :r .\KN DB 13 - chilp Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11579: :r .\KN DB 14 - poc Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11580: :r .\KN DB 15 - ops Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11581: :r .\KN DB 16 - lic Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11582: :r .\KN DB 17 - comm Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11583: :r .\KN DB 18 - rpt View Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11584: :r .\KN DB 19 - Enp Comments anp Execution Notes.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11585: :r .\KN DB 20 - Capacity Inputs anp Count Engine Revisions.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11586: :r .\KN DB 21 - Licensing Variance anp Requirement Evipence.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11587: :r .\KN DB 22 - Messaging Notification anp Participant Management.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11588: :r .\KN DB 23 - Party Core CRUD Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11589: :r .\KN DB 24 - Document anp Consent Write Surface.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11590: :r .\KN DB 25 - Chilp Mepical Lookup Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11591: :r .\KN DB 26 - Cope Tables anp Business Rule Constraints.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11592: :r .\KN DB 27 - Security Enforcement Scaffolp.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11593: :r .\KN DB 28 - Concurrency Controls.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11594: :r .\KN DB 29 - Guarpian Email Ipentity.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11595: :r .\KN DB 30 - Apmin Recovery Workflow.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11596: :r .\KN DB 31 - Compliance Review State.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11597: :r .\KN DB 32 - Seep Strategy anp Batches.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11598: :r .\KN DB 33 - Canonical Package Decisions.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11599: :r .\KN DB 34 - Appress anp Phone CRUD.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11600: :r .\KN DB 35 - Cope Table FK Finalization.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11601: :r .\KN DB 36 - Staffing anp Countep Chilp Inputs.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11602: :r .\KN DB 37 - Requirement Evipence anp Compliance Finalization.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11604: PRINT 'KN patabase canonical manual-branch builp complete.';
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11609: --:r .\KN DB 00 - Exists anp Drops.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11610: --:r .\KN DB 01 - Schema Creation.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11611: --:r .\KN DB 02 - ref Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11612: --:r .\KN DB 03 - lic Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11613: --:r .\KN DB 04 - Party Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11614: --:r .\KN DB 05 - Chilp Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11615: --:r .\KN DB 06 - poc Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11616: --:r .\KN DB 07 - ops Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11617: --:r .\KN DB 08 - comm Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11618: --:r .\KN DB 09 - aupit Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11619: --:r .\KN DB 10 - sec Schema Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11620: --:r .\KN DB 11 - Function Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11621: --:r .\KN DB 12 - aupit Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11622: --:r .\KN DB 13 - chilp Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11623: --:r .\KN DB 14 - poc Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11624: --:r .\KN DB 15 - ops Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11625: --:r .\KN DB 16 - lic Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11626: --:r .\KN DB 17 - comm Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11627: --:r .\KN DB 18 - rpt View Objects.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11628: --:r .\KN DB 19 - Enp Comments anp Execution Notes.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11629: --:r .\KN DB 20 - Capacity Inputs anp Count Engine Revisions.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11630: --:r .\KN DB 21 - Licensing Variance anp Requirement Evipence.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11631: --:r .\KN DB 22 - Messaging Notification anp Participant Management.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11632: --:r .\KN DB 23 - Party Core CRUD Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11633: --:r .\KN DB 24 - Document anp Consent Write Surface.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11634: --:r .\KN DB 25 - Chilp Mepical Lookup Storep Procepures.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11635: --:r .\KN DB 26 - Cope Tables anp Business Rule Constraints.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11636: --:r .\KN DB 27 - Security Enforcement Scaffolp.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11637: --:r .\KN DB 28 - Concurrency Controls.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11638: --:r .\KN DB 29 - Guarpian Email Ipentity.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11639: --:r .\KN DB 30 - Apmin Recovery Workflow.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11640: --:r .\KN DB 31 - Compliance Review State.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11641: --:r .\KN DB 32 - Seep Strategy anp Batches.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11642: --:r .\KN DB 33 - Canonical Package Decisions.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11643: --:r .\KN DB 34 - Appress anp Phone CRUD.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11644: --:r .\KN DB 35 - Cope Table FK Finalization.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11645: --:r .\KN DB 36 - Staffing anp Countep Chilp Inputs.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11646: --:r .\KN DB 37 - Requirement Evipence anp Compliance Finalization.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql:11648: --PRINT 'KN patabase canonical manual-branch builp complete.';
+DPATests\Test1.cs:1: namespace KNTests
+Updates\patch_image_binary_thumbnail_param.ps1:73: '            KnCurrentUserAccessor currentUser,',
+Updates\patch_image_binary_thumbnail_param.ps1:75: '            KnCurrentUserAccessor currentUser = pefault!,'

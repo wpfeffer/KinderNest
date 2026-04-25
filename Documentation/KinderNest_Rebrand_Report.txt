@@ -1,0 +1,550 @@
+﻿.github\workflows\ci.yml
+.gitignore
+apply_kindernest_rebrand.ps1
+DaycareProviderAssistant.slnx
+DaycareProviderAssistant\Admin\Models\AdminActionOutcomeDto.cs
+DaycareProviderAssistant\Admin\Models\AdminAuditSummaryDto.cs
+DaycareProviderAssistant\Admin\Models\AdminAuditTrailItemDto.cs
+DaycareProviderAssistant\Admin\Models\AdminDashboardCountsDto.cs
+DaycareProviderAssistant\Admin\Models\AdminDashboardSummaryDto.cs
+DaycareProviderAssistant\Admin\Models\AdminImageStorageSiteDto.cs
+DaycareProviderAssistant\Admin\Models\AdminLicensingFindingDto.cs
+DaycareProviderAssistant\Admin\Models\AdminLicensingSummaryDto.cs
+DaycareProviderAssistant\Admin\Models\AdminOperationsModels.cs
+DaycareProviderAssistant\Admin\Models\AdminPortalUserDetailDto.cs
+DaycareProviderAssistant\Admin\Models\AdminPortalUserListItemDto.cs
+DaycareProviderAssistant\Admin\Models\AdminPortalUserRoleDto.cs
+DaycareProviderAssistant\Admin\Models\AdminPortalUserSessionDto.cs
+DaycareProviderAssistant\Admin\Models\AdminPortalUserSiteAssignmentDto.cs
+DaycareProviderAssistant\Admin\Models\AdminProviderDetailDto.cs
+DaycareProviderAssistant\Admin\Models\AdminProviderListItemDto.cs
+DaycareProviderAssistant\Admin\Models\AdminProviderOwnerDto.cs
+DaycareProviderAssistant\Admin\Models\AdminProviderSiteDto.cs
+DaycareProviderAssistant\Admin\Models\AdminSecurityEventDto.cs
+DaycareProviderAssistant\Admin\Models\AdminSecuritySummaryDto.cs
+DaycareProviderAssistant\Admin\Models\AdminSiteDetailDto.cs
+DaycareProviderAssistant\Admin\Models\AdminSiteListItemDto.cs
+DaycareProviderAssistant\Admin\Models\AdminSiteUserAssignmentDto.cs
+DaycareProviderAssistant\Admin\Models\PendingProviderApprovalListItemDto.cs
+DaycareProviderAssistant\Admin\Models\RecentAuditEventDto.cs
+DaycareProviderAssistant\Admin\Models\RecentFailedLoginDto.cs
+DaycareProviderAssistant\Admin\Models\RecentProviderRegistrationDto.cs
+DaycareProviderAssistant\Admin\README_MILESTONE1.txt
+DaycareProviderAssistant\Admin\Services\AdminDashboardService.cs
+DaycareProviderAssistant\Admin\Services\AdminDataReaderHelpers.cs
+DaycareProviderAssistant\Admin\Services\AdminOperationsService.cs
+DaycareProviderAssistant\Admin\Services\AdminProviderApprovalService.cs
+DaycareProviderAssistant\Admin\Services\AdminProviderService.cs
+DaycareProviderAssistant\Admin\Services\AdminSiteService.cs
+DaycareProviderAssistant\Admin\Services\AdminUserService.cs
+DaycareProviderAssistant\Admin\Services\IAdminDashboardService.cs
+DaycareProviderAssistant\Admin\Services\IAdminOperationsService.cs
+DaycareProviderAssistant\Admin\Services\IAdminProviderApprovalService.cs
+DaycareProviderAssistant\Admin\Services\IAdminProviderService.cs
+DaycareProviderAssistant\Admin\Services\IAdminSiteService.cs
+DaycareProviderAssistant\Admin\Services\IAdminUserService.cs
+DaycareProviderAssistant\appsettings.json
+DaycareProviderAssistant\Auditing\AuditAccessPaths.cs
+DaycareProviderAssistant\Auditing\AuditCategories.cs
+DaycareProviderAssistant\Auditing\AuditContextAccessor.cs
+DaycareProviderAssistant\Auditing\AuditContracts.cs
+DaycareProviderAssistant\Auditing\AuditEventEnvelope.cs
+DaycareProviderAssistant\Auditing\AuditFieldChange.cs
+DaycareProviderAssistant\Auditing\AuditHasher.cs
+DaycareProviderAssistant\Auditing\AuditOutcomes.cs
+DaycareProviderAssistant\Auditing\AuditRequestContext.cs
+DaycareProviderAssistant\Auditing\AuditServiceCollectionExtensions.cs
+DaycareProviderAssistant\Auditing\AuditSeverity.cs
+DaycareProviderAssistant\Auditing\AuditSubjectRef.cs
+DaycareProviderAssistant\Auditing\AuditWriteResult.cs
+DaycareProviderAssistant\Auditing\IAuditWriter.cs
+DaycareProviderAssistant\Auditing\README.md
+DaycareProviderAssistant\Auth\Authorization\ChildAccessAuthorizationHandler.cs
+DaycareProviderAssistant\Auth\Authorization\ChildAccessRequirement.cs
+DaycareProviderAssistant\Auth\Authorization\SiteAccessAuthorizationHandler.cs
+DaycareProviderAssistant\Auth\Authorization\SiteAccessRequirement.cs
+DaycareProviderAssistant\Auth\Configuration\DpaAuthOptions.cs
+DaycareProviderAssistant\Auth\Configuration\DpaClaimTypes.cs
+DaycareProviderAssistant\Auth\Configuration\DpaPolicies.cs
+DaycareProviderAssistant\Auth\Configuration\DpaPortalValues.cs
+DaycareProviderAssistant\Auth\Endpoints\AuthEndpointMapper.cs
+DaycareProviderAssistant\Auth\Models\AuthenticatedPortalUser.cs
+DaycareProviderAssistant\Auth\Models\BootstrapAdminOutcome.cs
+DaycareProviderAssistant\Auth\Models\BootstrapAdminRequest.cs
+DaycareProviderAssistant\Auth\Models\DpaCredentialRecord.cs
+DaycareProviderAssistant\Auth\Models\LoginOutcome.cs
+DaycareProviderAssistant\Auth\Models\ProviderRegistrationFormOptions.cs
+DaycareProviderAssistant\Auth\Models\ProviderRegistrationLicenseClassOption.cs
+DaycareProviderAssistant\Auth\Models\ProviderRegistrationOutcome.cs
+DaycareProviderAssistant\Auth\Models\ProviderRegistrationRequest.cs
+DaycareProviderAssistant\Auth\Models\ProviderRegistrationTimeZoneOption.cs
+DaycareProviderAssistant\Auth\Services\AdminBootstrapService.cs
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationService.cs
+DaycareProviderAssistant\Auth\Services\DpaAuthenticationServiceCollectionExtensions.cs
+DaycareProviderAssistant\Auth\Services\DpaClaimsPrincipalFactory.cs
+DaycareProviderAssistant\Auth\Services\DpaCookieSessionValidator.cs
+DaycareProviderAssistant\Auth\Services\DpaCurrentUserAccessor.cs
+DaycareProviderAssistant\Auth\Services\DpaPasswordHasher.cs
+DaycareProviderAssistant\Auth\Services\IAdminBootstrapService.cs
+DaycareProviderAssistant\Auth\Services\IAuthenticationAuditWriter.cs
+DaycareProviderAssistant\Auth\Services\IDpaAuthenticationService.cs
+DaycareProviderAssistant\Auth\Services\IDpaUserStore.cs
+DaycareProviderAssistant\Auth\Services\IProviderRegistrationLookupService.cs
+DaycareProviderAssistant\Auth\Services\IProviderRegistrationService.cs
+DaycareProviderAssistant\Auth\Services\ISqlConnectionFactory.cs
+DaycareProviderAssistant\Auth\Services\ProviderRegistrationLookupService.cs
+DaycareProviderAssistant\Auth\Services\ProviderRegistrationService.cs
+DaycareProviderAssistant\Auth\Services\SqlAuthenticationAuditWriter.cs
+DaycareProviderAssistant\Auth\Services\SqlConnectionFactory.cs
+DaycareProviderAssistant\Auth\Services\SqlDpaUserStore.cs
+DaycareProviderAssistant\Billing\Models\AdminBillingCountsDto.cs
+DaycareProviderAssistant\Billing\Models\AdminBillingOverviewDto.cs
+DaycareProviderAssistant\Billing\Models\AdminProviderInvoiceItemDto.cs
+DaycareProviderAssistant\Billing\Models\AdminProviderSubscriptionItemDto.cs
+DaycareProviderAssistant\Billing\Models\AttendanceDrilldownDto.cs
+DaycareProviderAssistant\Billing\Models\BillingCodeOptionDto.cs
+DaycareProviderAssistant\Billing\Models\BillingWriteOutcomeDto.cs
+DaycareProviderAssistant\Billing\Models\FamilyBillingAccountEditRequest.cs
+DaycareProviderAssistant\Billing\Models\FamilyChargeDrilldownDto.cs
+DaycareProviderAssistant\Billing\Models\FamilyChargeEntryRequest.cs
+DaycareProviderAssistant\Billing\Models\FamilyInvoiceDeepDetailDto.cs
+DaycareProviderAssistant\Billing\Models\FamilyInvoiceGenerationRequest.cs
+DaycareProviderAssistant\Billing\Models\FamilyInvoiceHeaderDto.cs
+DaycareProviderAssistant\Billing\Models\FamilyInvoiceLineDrilldownDto.cs
+DaycareProviderAssistant\Billing\Models\FamilyInvoiceOptionDto.cs
+DaycareProviderAssistant\Billing\Models\FamilyPaymentPostRequest.cs
+DaycareProviderAssistant\Billing\Models\GuardianBillingAccountItemDto.cs
+DaycareProviderAssistant\Billing\Models\GuardianBillingCountsDto.cs
+DaycareProviderAssistant\Billing\Models\GuardianBillingDashboardDto.cs
+DaycareProviderAssistant\Billing\Models\GuardianInvoiceItemDto.cs
+DaycareProviderAssistant\Billing\Models\GuardianPaymentItemDto.cs
+DaycareProviderAssistant\Billing\Models\InvoicePaymentItemDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingDashboardDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingProcessorAccountDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingSummaryDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingWriteContextDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingWriteFamilyAccountDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingWriteHouseholdDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingWriteProviderDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingWriteRateScheduleDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderBillingWriteSiteDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderFamilyBillingAccountItemDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderInvoiceDetailDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderInvoiceDetailLineDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderInvoiceHeaderDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderInvoiceListItemDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderPlanOptionDto.cs
+DaycareProviderAssistant\Billing\Models\ProviderRateScheduleEditRequest.cs
+DaycareProviderAssistant\Billing\Models\ProviderRateScheduleListItemDto.cs
+DaycareProviderAssistant\Billing\Services\AdminBillingService.cs
+DaycareProviderAssistant\Billing\Services\GuardianBillingService.cs
+DaycareProviderAssistant\Billing\Services\IAdminBillingService.cs
+DaycareProviderAssistant\Billing\Services\IGuardianBillingService.cs
+DaycareProviderAssistant\Billing\Services\IProviderBillingService.cs
+DaycareProviderAssistant\Billing\Services\IProviderBillingWriteService.cs
+DaycareProviderAssistant\Billing\Services\ProviderBillingService.cs
+DaycareProviderAssistant\Billing\Services\ProviderBillingWriteService.cs
+DaycareProviderAssistant\Components\_Imports.razor
+DaycareProviderAssistant\Components\App.razor
+DaycareProviderAssistant\Components\Auth\RedirectToLogin.razor
+DaycareProviderAssistant\Components\Layout\MainLayout.razor
+DaycareProviderAssistant\Components\Layout\MainLayout.razor.css
+DaycareProviderAssistant\Components\Layout\ReconnectModal.razor
+DaycareProviderAssistant\Components\Layout\ReconnectModal.razor.css
+DaycareProviderAssistant\Components\Layout\ReconnectModal.razor.js
+DaycareProviderAssistant\Components\Pages\Admin\Audit.razor
+DaycareProviderAssistant\Components\Pages\Admin\Billing.razor
+DaycareProviderAssistant\Components\Pages\Admin\Licensing.razor
+DaycareProviderAssistant\Components\Pages\Admin\ProviderApprovals.razor
+DaycareProviderAssistant\Components\Pages\Admin\ProviderApprovals.razor.css
+DaycareProviderAssistant\Components\Pages\Admin\ProviderDetail.razor
+DaycareProviderAssistant\Components\Pages\Admin\Providers.razor
+DaycareProviderAssistant\Components\Pages\Admin\Security.razor
+DaycareProviderAssistant\Components\Pages\Admin\SiteDetail.razor
+DaycareProviderAssistant\Components\Pages\Admin\Sites.razor
+DaycareProviderAssistant\Components\Pages\Admin\UserDetail.razor
+DaycareProviderAssistant\Components\Pages\Admin\Users.razor
+DaycareProviderAssistant\Components\Pages\AdminPortal.razor
+DaycareProviderAssistant\Components\Pages\AdminPortal.razor.css
+DaycareProviderAssistant\Components\Pages\Auth\AccessDenied.razor
+DaycareProviderAssistant\Components\Pages\Auth\AccessDenied.razor.css
+DaycareProviderAssistant\Components\Pages\Auth\BootstrapAdmin.razor
+DaycareProviderAssistant\Components\Pages\Auth\BootstrapAdmin.razor.css
+DaycareProviderAssistant\Components\Pages\Auth\Login.razor
+DaycareProviderAssistant\Components\Pages\Auth\Login.razor.css
+DaycareProviderAssistant\Components\Pages\Auth\RegisterProvider.razor
+DaycareProviderAssistant\Components\Pages\Auth\RegisterProvider.razor.css
+DaycareProviderAssistant\Components\Pages\Error.razor
+DaycareProviderAssistant\Components\Pages\Guardian\Billing.razor
+DaycareProviderAssistant\Components\Pages\Guardian\Children.razor
+DaycareProviderAssistant\Components\Pages\Guardian\Consents.razor
+DaycareProviderAssistant\Components\Pages\Guardian\Messages.razor
+DaycareProviderAssistant\Components\Pages\Guardian\Photos.razor
+DaycareProviderAssistant\Components\Pages\Guardian\Profile.razor
+DaycareProviderAssistant\Components\Pages\GuardianPortal.razor
+DaycareProviderAssistant\Components\Pages\GuardianPortal.razor.css
+DaycareProviderAssistant\Components\Pages\Home.razor
+DaycareProviderAssistant\Components\Pages\Home.razor.css
+DaycareProviderAssistant\Components\Pages\NotFound.razor
+DaycareProviderAssistant\Components\Pages\Provider\Attendance.razor
+DaycareProviderAssistant\Components\Pages\Provider\Billing.razor
+DaycareProviderAssistant\Components\Pages\Provider\BillingChargesNew.razor
+DaycareProviderAssistant\Components\Pages\Provider\BillingFamilyAccountsManage.razor
+DaycareProviderAssistant\Components\Pages\Provider\BillingInvoicesGenerate.razor
+DaycareProviderAssistant\Components\Pages\Provider\BillingPaymentsPost.razor
+DaycareProviderAssistant\Components\Pages\Provider\BillingRatesManage.razor
+DaycareProviderAssistant\Components\Pages\Provider\Children.razor
+DaycareProviderAssistant\Components\Pages\Provider\Documents.razor
+DaycareProviderAssistant\Components\Pages\Provider\FamiliesNew.razor
+DaycareProviderAssistant\Components\Pages\Provider\Messages.razor
+DaycareProviderAssistant\Components\Pages\Provider\Photos.razor
+DaycareProviderAssistant\Components\Pages\ProviderPortal.razor
+DaycareProviderAssistant\Components\Pages\ProviderPortal.razor.css
+DaycareProviderAssistant\Components\Portal\PortalSection.razor
+DaycareProviderAssistant\Components\Portal\PortalSection.razor.css
+DaycareProviderAssistant\Components\Portal\PortalShell.razor
+DaycareProviderAssistant\Components\Portal\PortalShell.razor.css
+DaycareProviderAssistant\Components\Portal\PortalStatCard.razor
+DaycareProviderAssistant\Components\Portal\PortalStatCard.razor.css
+DaycareProviderAssistant\Components\Portal\PortalStatusPill.razor
+DaycareProviderAssistant\Components\Portal\PortalStatusPill.razor.css
+DaycareProviderAssistant\Components\Routes.razor
+DaycareProviderAssistant\DaycareProviderAssistant.csproj
+DaycareProviderAssistant\dotnet-tools.json
+DaycareProviderAssistant\Guardian\Models\GuardianAlertDto.cs
+DaycareProviderAssistant\Guardian\Models\GuardianChildListItemDto.cs
+DaycareProviderAssistant\Guardian\Models\GuardianConsentListItemDto.cs
+DaycareProviderAssistant\Guardian\Models\GuardianConversationListItemDto.cs
+DaycareProviderAssistant\Guardian\Models\GuardianDashboardSummaryDto.cs
+DaycareProviderAssistant\Guardian\Models\GuardianPortalModels.cs
+DaycareProviderAssistant\Guardian\Models\GuardianProfileDto.cs
+DaycareProviderAssistant\Guardian\Models\GuardianRelationshipDetailDto.cs
+DaycareProviderAssistant\Guardian\Services\GuardianPortalService.cs
+DaycareProviderAssistant\Guardian\Services\IGuardianPortalService.cs
+DaycareProviderAssistant\Portal\Models\PortalNavItem.cs
+DaycareProviderAssistant\Portal\Models\PortalTheme.cs
+DaycareProviderAssistant\Portal\Services\PortalBrandingService.cs
+DaycareProviderAssistant\Portal\Services\PortalDataReaderHelpers.cs
+DaycareProviderAssistant\Portal\Services\PortalNavigationService.cs
+DaycareProviderAssistant\Program.cs
+DaycareProviderAssistant\Properties\launchSettings.json
+DaycareProviderAssistant\Provider\Models\ProviderPortalModels.cs
+DaycareProviderAssistant\Provider\Services\IProviderPortalService.cs
+DaycareProviderAssistant\Provider\Services\ProviderPortalService.cs
+DaycareProviderAssistant\README_BILLING_UI_SERVICE_LAYER.md
+DaycareProviderAssistant\wwwroot\app.css
+DaycareProviderAssistant\wwwroot\js\dpa-images.js
+Documentation\LICENSE.txt
+Documentation\README (2).md
+Documentation\README (2).txt
+Documentation\README (3).md
+Documentation\README (3).txt
+Documentation\README (4).md
+Documentation\README (4).txt
+Documentation\README (5).txt
+Documentation\README.md
+Documentation\README.txt
+Documentation\README_ADMIN_DASHBOARD_IMAGE_STORAGE.md
+Documentation\README_AUTH_DB_WIRING.md
+Documentation\README_BATCH_2.md
+Documentation\README_BATCH_3.md
+Documentation\README_BATCH_4.md
+Documentation\README_BILLING_PROCEDURES_LAYER.md
+Documentation\README_BILLING_SCHEMA_FOUNDATION.md
+Documentation\README_BILLING_WRITE_ACTIONS_LAYER.md
+Documentation\README_BOOTSTRAP_ADMIN.md
+Documentation\README_BUILD_FIXES.md
+Documentation\README_BUILD_HOTFIX.md
+Documentation\README_ENCRYPTED_IMAGES.md
+Documentation\README_IMAGE_SCHEMA_MIGRATION.md
+Documentation\README_IMAGE_UPLOAD_SYSTEM.md
+Documentation\README_ONBOARDING_PROC_SIGNATURES.md
+Documentation\README_ONE_TYPE_PER_FILE.md
+Documentation\README_OPTIONAL_DRAFT_TABLES.md
+Documentation\README_PORTAL_PAGES.md
+Documentation\README_REPORTING_DETAIL_VIEWS.md
+dpa\audit\audit.sql
+dpa\audit\Stored Procedures\usp_AdminAuditTrail_List.sql
+dpa\audit\Stored Procedures\usp_WriteAuditLog.sql
+dpa\audit\Stored Procedures\usp_WriteAuthenticationEvent.sql
+dpa\audit\Tables\AccessLog.sql
+dpa\audit\Tables\AuditLog.sql
+dpa\audit\Tables\AuthenticationEvent.sql
+dpa\audit\Tables\BreakGlassEvent.sql
+dpa\audit\Tables\DataExportLog.sql
+dpa\audit\Tables\NotificationLog.sql
+dpa\audit\Tables\RecoveryApproval.sql
+dpa\audit\Tables\RecoveryExecution.sql
+dpa\audit\Tables\RecoveryRequest.sql
+dpa\billing\Stored Procedures\usp_AdminBillingDashboard_GetSummary.sql
+dpa\billing\Stored Procedures\usp_BillingCodeValue_List.sql
+dpa\billing\Stored Procedures\usp_FamilyBillingAccount_GetByHousehold.sql
+dpa\billing\Stored Procedures\usp_FamilyBillingAccount_Upsert.sql
+dpa\billing\Stored Procedures\usp_FamilyCharge_ListByAccount.sql
+dpa\billing\Stored Procedures\usp_FamilyCharge_Upsert.sql
+dpa\billing\Stored Procedures\usp_FamilyInvoice_GenerateFromPendingCharges.sql
+dpa\billing\Stored Procedures\usp_FamilyInvoice_GetDetail.sql
+dpa\billing\Stored Procedures\usp_FamilyInvoice_List.sql
+dpa\billing\Stored Procedures\usp_FamilyInvoice_ReconcileStatus.sql
+dpa\billing\Stored Procedures\usp_FamilyInvoice_Upsert.sql
+dpa\billing\Stored Procedures\usp_FamilyInvoiceLine_Upsert.sql
+dpa\billing\Stored Procedures\usp_FamilyPayment_Record.sql
+dpa\billing\Stored Procedures\usp_FamilyRateAssignment_Upsert.sql
+dpa\billing\Stored Procedures\usp_GuardianBillingDashboard_GetSummary.sql
+dpa\billing\Stored Procedures\usp_ProviderBillingDashboard_GetSummary.sql
+dpa\billing\Stored Procedures\usp_ProviderBillingWriteContext_Get.sql
+dpa\billing\Stored Procedures\usp_ProviderInvoice_GetDetail.sql
+dpa\billing\Stored Procedures\usp_ProviderInvoice_List.sql
+dpa\billing\Stored Procedures\usp_ProviderInvoice_ReconcileStatus.sql
+dpa\billing\Stored Procedures\usp_ProviderInvoice_Upsert.sql
+dpa\billing\Stored Procedures\usp_ProviderInvoiceLine_Upsert.sql
+dpa\billing\Stored Procedures\usp_ProviderPayment_Record.sql
+dpa\billing\Stored Procedures\usp_ProviderPlan_List.sql
+dpa\billing\Stored Procedures\usp_ProviderRateSchedule_List.sql
+dpa\billing\Stored Procedures\usp_ProviderRateSchedule_Upsert.sql
+dpa\billing\Stored Procedures\usp_ProviderSubscription_GetActive.sql
+dpa\billing\Stored Procedures\usp_ProviderSubscription_Upsert.sql
+dpa\billing\Stored Procedures\usp_ProviderUsageSnapshot_Upsert.sql
+dpa\billing\Tables\BillingProviderAccount.sql
+dpa\billing\Tables\FamilyBillingAccount.sql
+dpa\billing\Tables\FamilyCharge.sql
+dpa\billing\Tables\FamilyInvoice.sql
+dpa\billing\Tables\FamilyInvoiceLine.sql
+dpa\billing\Tables\FamilyRateAssignment.sql
+dpa\billing\Tables\Payment.sql
+dpa\billing\Tables\PaymentMethodToken.sql
+dpa\billing\Tables\ProviderInvoice.sql
+dpa\billing\Tables\ProviderInvoiceLine.sql
+dpa\billing\Tables\ProviderPlan.sql
+dpa\billing\Tables\ProviderRateSchedule.sql
+dpa\billing\Tables\ProviderSubscription.sql
+dpa\billing\Tables\ProviderUsageSnapshot.sql
+dpa\child\child.sql
+dpa\child\Functions\fn_CalculateAgeInDays.sql
+dpa\child\Stored Procedures\usp_ChildAllergyPlan_GetByChildID.sql
+dpa\child\Stored Procedures\usp_ChildMedicalProfile_GetByChildID.sql
+dpa\child\Stored Procedures\usp_GuardianAccess_CheckSite.sql
+dpa\child\Stored Procedures\usp_GuardianAccessibleChild_List.sql
+dpa\child\Stored Procedures\usp_GuardianEmailClaimAttempt_Insert.sql
+dpa\child\Stored Procedures\usp_GuardianPortal_Child_List.sql
+dpa\child\Stored Procedures\usp_MedicationPermission_GetByChildID.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_Attendance_GetSummary.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_Child_List.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_Family_GetDetail.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_Family_List.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_Family_Onboard.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_Guardian_Upsert.sql
+dpa\child\Stored Procedures\usp_ProviderPortal_PickupAuthorization_Upsert.sql
+dpa\child\Stored Procedures\usp_SiteImageSubjectChild_List.sql
+dpa\child\Tables\Child.sql
+dpa\child\Tables\ChildAllergyPlan.sql
+dpa\child\Tables\ChildAttendance.sql
+dpa\child\Tables\ChildEnrollment.sql
+dpa\child\Tables\ChildHousehold.sql
+dpa\child\Tables\ChildMedicalProfile.sql
+dpa\child\Tables\ChildPersonRelationship.sql
+dpa\child\Tables\GuardianEmailChangeRequest.sql
+dpa\child\Tables\GuardianEmailClaimAttempt.sql
+dpa\child\Tables\GuardianEmailIdentity.sql
+dpa\child\Tables\GuardianInvitation.sql
+dpa\child\Tables\MedicationPermission.sql
+dpa\child\Tables\PickupDropoffAuthorization.sql
+dpa\comm\Stored Procedures\usp_GuardianPortal_Conversation_List.sql
+dpa\comm\Stored Procedures\usp_Message_MarkRead.sql
+dpa\comm\Stored Procedures\usp_ProviderPortal_Conversation_List.sql
+dpa\comm\Tables\AdminConversationMetadata.sql
+dpa\comm\Tables\Conversation.sql
+dpa\comm\Tables\ConversationParticipant.sql
+dpa\comm\Tables\ConversationParticipantAudit.sql
+dpa\comm\Tables\EmailOutbox.sql
+dpa\comm\Tables\Message.sql
+dpa\comm\Tables\MessageAttachment.sql
+dpa\comm\Tables\MessageReadReceipt.sql
+dpa\comm\Tables\NotificationTemplate.sql
+dpa\doc\doc.sql
+dpa\doc\Stored Procedures\usp_GuardianPortal_Consent_List.sql
+dpa\doc\Stored Procedures\usp_ImageAsset_Create.sql
+dpa\doc\Stored Procedures\usp_ImageAsset_GetAccessEnvelope.sql
+dpa\doc\Stored Procedures\usp_ImageAsset_ListForGuardian.sql
+dpa\doc\Stored Procedures\usp_ImageAsset_ListForSite.sql
+dpa\doc\Stored Procedures\usp_ImageAsset_SoftDelete.sql
+dpa\doc\Stored Procedures\usp_ProviderPortal_DocumentQueue_List.sql
+dpa\doc\Tables\ConsentRecord.sql
+dpa\doc\Tables\Document.sql
+dpa\doc\Tables\DocumentType.sql
+dpa\doc\Tables\EntityDocument.sql
+dpa\doc\Tables\ImageAsset.sql
+dpa\doc\Tables\ImageAssetSubject.sql
+dpa\image\Stored Procedures\usp_AdminImageStorage_BySite.sql
+dpa\image\Stored Procedures\usp_ImageAsset_Create.sql
+dpa\image\Stored Procedures\usp_ImageAsset_GetAccessEnvelope.sql
+dpa\image\Stored Procedures\usp_ImageAsset_ListForGuardian.sql
+dpa\image\Stored Procedures\usp_ImageAsset_ListForSite.sql
+dpa\image\Stored Procedures\usp_ImageAsset_SoftDelete.sql
+dpa\image\Stored Procedures\usp_ImageStorageContext_GetBySite.sql
+dpa\image\Stored Procedures\usp_ImageStorageProvisioningTarget_ListByPortalUser.sql
+dpa\image\Stored Procedures\usp_SiteImageKey_GetActive.sql
+dpa\image\Stored Procedures\usp_SiteImageKey_Upsert.sql
+dpa\image\Tables\ImageAsset.sql
+dpa\image\Tables\ImageAssetSubject.sql
+dpa\image\Tables\SiteImageKey.sql
+dpa\Install\add_auth_subsystem.sql
+dpa\Install\AUTH_SUBSYSTEM_VALIDATION_REPORT.txt
+dpa\Install\FK_INDEX_COVERAGE_NOTES.txt
+dpa\Install\master_install.sql
+dpa\Install\README_AUTH_DB_INSTALL.md
+dpa\Install\VALIDATION_REPORT.txt
+dpa\kn.sqlproj
+dpa\lic\Functions\fn_GetFamilyAgeBandCode.sql
+dpa\lic\Functions\fn_GetNextFamilyAgeBandTransitionDate.sql
+dpa\lic\Functions\fn_GetSiteChildCountSnapshot.sql
+dpa\lic\Functions\fn_ValidateFamilyCareCapacity.sql
+dpa\lic\Stored Procedures\usp_AdminLicensing_GetSummary.sql
+dpa\lic\Stored Procedures\usp_CapacityForecast_Get.sql
+dpa\lic\Stored Procedures\usp_CapacitySnapshot_Get.sql
+dpa\lic\Stored Procedures\usp_LicenseClass_ListActive.sql
+dpa\lic\Tables\CapacityRuleSet.sql
+dpa\lic\Tables\ComplianceFinding.sql
+dpa\lic\Tables\ComplianceReview.sql
+dpa\lic\Tables\FindingResolution.sql
+dpa\lic\Tables\LicenseClass.sql
+dpa\lic\Tables\LicenseVariance.sql
+dpa\lic\Tables\RequirementCatalog.sql
+dpa\lic\Tables\RequirementEvidence.sql
+dpa\lic\Tables\RequirementStatus.sql
+dpa\ops\Stored Procedures\usp_AdminDashboard_GetSummary.sql
+dpa\ops\Stored Procedures\usp_AdminSecurity_GetSummary.sql
+dpa\ops\Stored Procedures\usp_GuardianPortal_Dashboard_GetSummary.sql
+dpa\ops\Stored Procedures\usp_ProviderPortal_Dashboard_GetSummary.sql
+dpa\ops\Tables\BackgroundStudyRecord.sql
+dpa\ops\Tables\CaregiverPresence.sql
+dpa\ops\Tables\CountedNonEnrollmentChild.sql
+dpa\ops\Tables\DrillLog.sql
+dpa\ops\Tables\EmergencyPlan.sql
+dpa\ops\Tables\IncidentReport.sql
+dpa\ops\Tables\ProviderFamilyIntakeDraft.sql
+dpa\ops\Tables\ProviderFamilyIntakeDraftPerson.sql
+dpa\ops\Tables\SafetyInspection.sql
+dpa\ops\Tables\StaffAssignment.sql
+dpa\ops\Tables\TrainingCompletion.sql
+dpa\party\Stored Procedures\usp_Address_FindCanonical.sql
+dpa\party\Stored Procedures\usp_AdminPendingProvider_List.sql
+dpa\party\Stored Procedures\usp_AdminPortalUser_GetDetail.sql
+dpa\party\Stored Procedures\usp_AdminPortalUser_List.sql
+dpa\party\Stored Procedures\usp_AdminProvider_GetDetail.sql
+dpa\party\Stored Procedures\usp_AdminProvider_List.sql
+dpa\party\Stored Procedures\usp_AdminSite_GetDetail.sql
+dpa\party\Stored Procedures\usp_AdminSite_List.sql
+dpa\party\Stored Procedures\usp_BootstrapAdmin_CanBootstrap.sql
+dpa\party\Stored Procedures\usp_BootstrapAdmin_CreateFirstUser.sql
+dpa\party\Stored Procedures\usp_GuardianPortal_Profile_Get.sql
+dpa\party\Stored Procedures\usp_PhoneNumber_FindCanonical.sql
+dpa\party\Stored Procedures\usp_PortalUserAssignedSite_List.sql
+dpa\party\Stored Procedures\usp_ProviderOwner_Approve.sql
+dpa\party\Stored Procedures\usp_ProviderOwner_Reject.sql
+dpa\party\Stored Procedures\usp_ProviderOwner_SelfRegister.sql
+dpa\party\Stored Procedures\usp_SiteImageSubjectAdult_List.sql
+dpa\party\Tables\Address.sql
+dpa\party\Tables\Hospital.sql
+dpa\party\Tables\Household.sql
+dpa\party\Tables\HouseholdPerson.sql
+dpa\party\Tables\LicensorAssignment.sql
+dpa\party\Tables\MedicalProvider.sql
+dpa\party\Tables\Person.sql
+dpa\party\Tables\PhoneNumber.sql
+dpa\party\Tables\PortalUser.sql
+dpa\party\Tables\PortalUserRole.sql
+dpa\party\Tables\Provider.sql
+dpa\party\Tables\Site.sql
+dpa\party\Tables\SiteUserAssignment.sql
+dpa\PostDeploy\BillingSeedData.sql
+dpa\PostDeploy\Patches.sql
+dpa\PostDeploy\SeedData.sql
+dpa\ref\Stored Procedures\usp_SeedBatch_Complete.sql
+dpa\ref\Stored Procedures\usp_SeedBatch_Start.sql
+dpa\ref\Stored Procedures\usp_TimeZone_ListActive.sql
+dpa\ref\Tables\CodeValue.sql
+dpa\ref\Tables\MedicalProviderType.sql
+dpa\ref\Tables\Role.sql
+dpa\ref\Tables\SeedBatch.sql
+dpa\ref\Tables\SeedBatchExecution.sql
+dpa\ref\Tables\TimeZone.sql
+dpa\ref\Views\vwCodeDomains.sql
+dpa\rpt\Views\vwActiveChildEnrollmentSummary.sql
+dpa\rpt\Views\vwCapacityInputsByDate.sql
+dpa\rpt\Views\vwCodeUsageValidation.sql
+dpa\rpt\Views\vwDocumentStatus.sql
+dpa\rpt\Views\vwGuardianAccessSummary.sql
+dpa\rpt\Views\vwLicensorAggregateChildCounts.sql
+dpa\rpt\Views\vwOpenComplianceFindings.sql
+dpa\rpt\Views\vwProviderCapacityStatus.sql
+dpa\rpt\Views\vwProviderFamilyDetail.sql
+dpa\rpt\Views\vwProviderHouseholdChildDetail.sql
+dpa\rpt\Views\vwProviderHouseholdPersonDetail.sql
+dpa\rpt\Views\vwProviderHouseholdPickupAuthorizationDetail.sql
+dpa\rpt\Views\vwProviderHouseholdSummary.sql
+dpa\rpt\Views\vwSecureChildAccess.sql
+dpa\rpt\Views\vwSecureSiteAggregateAccess.sql
+dpa\Schemas\CreateSchemas.sql
+dpa\Scripts\ScriptsIgnoredOnImport.sql
+dpa\sec\Functions\fn_HasRoleCode.sql
+dpa\sec\Functions\fn_UserAssignedToSite.sql
+dpa\sec\Functions\fn_UserCanAccessChildDetail.sql
+dpa\sec\Functions\fn_UserCanAccessSiteAggregate.sql
+dpa\sec\Functions\fn_UserLinkedToChild.sql
+dpa\sec\Stored Procedures\usp_AssertRowVersionMatch.sql
+dpa\sec\Stored Procedures\usp_LoginFailure_Record.sql
+dpa\sec\Stored Procedures\usp_LoginSession_Create.sql
+dpa\sec\Stored Procedures\usp_LoginSession_IsActive.sql
+dpa\sec\Stored Procedures\usp_LoginSession_Revoke.sql
+dpa\sec\Stored Procedures\usp_LoginSuccess_Record.sql
+dpa\sec\Stored Procedures\usp_PasswordResetRequest_Consume.sql
+dpa\sec\Stored Procedures\usp_PasswordResetRequest_Create.sql
+dpa\sec\Stored Procedures\usp_PortalCredential_RecordFailedLogin.sql
+dpa\sec\Stored Procedures\usp_PortalCredential_SetPassword.sql
+dpa\sec\Stored Procedures\usp_PortalUser_Access_CheckChild.sql
+dpa\sec\Stored Procedures\usp_PortalUser_Access_CheckSite.sql
+dpa\sec\Stored Procedures\usp_PortalUser_RecordSuccessfulLogin.sql
+dpa\sec\Stored Procedures\usp_PortalUserAuthentication_GetByNormalizedUserName.sql
+dpa\sec\Stored Procedures\usp_SiteImageKey_GetActive.sql
+dpa\sec\Stored Procedures\usp_SiteImageKey_Upsert.sql
+dpa\sec\Tables\LoginSession.sql
+dpa\sec\Tables\MfaFactor.sql
+dpa\sec\Tables\PasswordResetRequest.sql
+dpa\sec\Tables\PortalCredential.sql
+dpa\sec\Tables\PortalCredentialHistory.sql
+dpa\sec\Tables\SiteImageKey.sql
+dpa\Security\audit.sql
+dpa\Security\child.sql
+dpa\Security\comm.sql
+dpa\Security\doc.sql
+dpa\Security\lic.sql
+dpa\Security\ops.sql
+dpa\Security\party.sql
+dpa\Security\ref.sql
+dpa\Security\rpt.sql
+dpa\Security\sec.sql
+DPATests\DPATests.csproj
+DPATests\MSTestSettings.cs
+DPATests\Test1.cs
+KinderNest_Rebrand_Leftovers.txt
+KinderNest_Rebrand_Report.txt
+README_KinderNest_Rebrand.md
+Updates\20260417_dpa_currentization_patch.sql
+Updates\20260417_milestone1_admin_portal_patch.sql
+Updates\20260417_milestone2_admin_portal_patch.sql
+Updates\20260417_milestone3_admin_portal_patch.sql
+Updates\apply_fix_encrypt_upload_js.ps1
+Updates\apply_image_upload_path_patch.ps1
+Updates\apply_ssdt_normalize_create_or_alter.ps1
+Updates\ManualHotfix\20260424_Migrate_ImageAssetSubject_SubjectTypeCodeValueID.sql
+Updates\milestone3_rejection_reason_fix.sql
+Updates\milestone3_user_procs_fix.sql
+Updates\patch_image_binary_thumbnail_param.ps1
+Updates\patch_image_subjecttype_seed.ps1
+Updates\patch_provider_photos_binary_urls.ps1
+Updates\patch_provider_photos_upload_rewire.ps1
+Updates\provider_registration_repair_patch.sql
+Updates\provider_registration_repair_patch_corrected.sql
+Updates\README.md
+verify_kindernest_rebrand.ps1
